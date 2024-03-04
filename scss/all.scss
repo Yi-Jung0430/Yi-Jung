@@ -2,7 +2,7 @@
 // 引入 bootstrap 預設的 variables、functions、 mixins
 // 我們同時可以運用裡面的 function、mixins 來精簡我們的 scss 內容，color, svg, media-breakpoint-up 等
 @import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
+@import "custom/variables";// 自行定義的變數路徑
 @import "../node_modules/bootstrap/scss/variables-dark";
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
@@ -48,5 +48,6 @@
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 // 客製化 scss
+
 @import "custom/bootstrap";
 @import "custom/style";

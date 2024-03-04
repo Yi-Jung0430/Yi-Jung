@@ -5,3 +5,13 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+h5,h6 {
+    font-weight: $font-weight-semibold;
+}
+
+p {
+    line-height: $line-height-lg;
+    color: #4b4b4b;
+}
+
