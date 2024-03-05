@@ -13787,4 +13787,11 @@ p {
   height: 100%;
 }
 
+.brandLogo {
+  width: 100px;
+  display: inline-block;
+  margin: 8px;
+  margin-left: 16px;
+}
+
 /*# sourceMappingURL=all.css.map */
