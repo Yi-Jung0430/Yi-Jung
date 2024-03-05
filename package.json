@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.1"
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.11.3"
   },
   "name": "yi-jung",
   "description": "專案建置模板 引入 bootstrap 5 以及 sass --- Bootstrap 版本 5.3.1 Sass 版本 1.66.1 --- 過程記錄 Medium https://medium.com/@yijunglin13079/%E5%89%8D%E7%AB%AF-%E7%B5%82%E7%AB%AF%E6%A9%9F%E6%8C%87%E4%BB%A4%E7%B4%80%E9%8C%84-%E4%BD%BF%E7%94%A8-npm%E5%B0%87-bootstrap5-%E8%88%87-sass-%E5%BC%95%E5%85%A5%E5%B0%88%E6%A1%88-6107fc56e4 #\u0000 \u0000Y\u0000i\u0000-\u0000J\u0000u\u0000n\u0000g\u0000\r\u0000 \u0000",
