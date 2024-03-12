@@ -1,52 +1,38 @@
-$menu-item-height: 41px;
-$menu-item-spacing: 16px;
-
-.vertical-menu {
-    width: 220px; // Avoid jitter on menu item click
+.nav_box.show {
+    display: block;
 }
 
-.vertical-menu-wrapper {
-    // max-width: 230px;
-    // margin: auto 20px;
+.nav_box {
+    display: none;
     position: fixed;
-    top: 40%;
-    right: 20px;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    transition: all .3s;
+    margin: 0;
+    padding: 10px 0;
+    width: 180px;
+    
 }
 
-.active-marker {
-    // Initially, this is positioned so that the first menu item is shown as active.
-    transition: transform 0.4s;
-    width: 5px;
-    background-image: linear-gradient(90deg, #000f92, #000f92);
-    background-size: 100%;
-    height: 30px;
-    margin-left: 7px;
-    transform: translateY(0px);
-}
-
-.vertical-menu-item {
-    font-size: 13px;
-    color: rgb(48, 48, 48);
-    transition: all 0.4s;
-    height: $menu-item-height; // Define height here to ensure no spacing change on hover effect
-    text-align: right;
-
-    &.is-active {
-        // Note: it's better to use scale or another property change when possible (things that don't trigger repaints) vs font size changes in a transition.
-        font-size: 16px;
-    }
-}
-
-.link--inverse-menu {
-    color: rgb(48, 48, 48);
+.nav_box a {
+    display: block;
     text-decoration: none;
+    padding-bottom: 16px;
+    text-align: right;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    transition: all .2s;
+}
 
-    &:visited {
-        color: rgb(17, 17, 17);
-    }
+.nav_box .active {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+}
 
-    &:hover,
-    &:active {
-        color: rgb(17, 17, 17);
-    }
+.nav_box a:hover {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
 }

@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="scss/all.css" />
+  <!-- <link rel="stylesheet" href="scss/all.css" /> -->
+  <link rel="stylesheet" href="templates/all.css">
   <title>Julie Lin</title>
 </head>
 
@@ -12,7 +13,7 @@
 
   <div class="sticky-top">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid container-xl">
         <a class="navbar-brand" href="home.html">
           <img src="image/logo.png" alt="Logo" width="40" class="d-inline-block align-middle" />
@@ -40,7 +41,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <!-- breadcrumb -->
     <div class="bg-white py-3">
       <div class="container">
@@ -220,7 +221,7 @@
     <div class="container">
       <div class="row py-8">
         <div class="col-12">
-          <h5>1. 市場研究</h5>
+          <h5>市場研究</h5>
           <ul class="list-unstyled">
             <li class="pt-5">
               <h6>市場趨勢</h6>
@@ -406,7 +407,7 @@
   <div id="target" class="container">
     <div class="row py-8">
       <div class="col-12">
-        <h5>2. 定義目標與客群</h5>
+        <h5>定義目標與客群</h5>
         <h6 class="mt-5">定義問題</h6>
         <p class="h3 lh-lg mt-1">我們發現...</p>
         <ul>
@@ -475,7 +476,7 @@
       <div class="row py-8">
         <!-- 視覺發想 -->
         <div class="col-12">
-          <h5>3. 設計執行</h5>
+          <h5>設計執行</h5>
           <h6 class="mt-5">視覺發想</h6>
           <ul class="list-unstyled">
             <li class="badge bg-secondary p-2 me-1 fs-6"># 自由</li>
@@ -589,7 +590,7 @@
     <div class="row py-8">
       <!-- 視覺發想 -->
       <div class="col-12">
-        <h5>4. 設計交付</h5>
+        <h5>設計交付</h5>
       </div>
       <div class="col-5"></div>
       <div class="col-6">
@@ -780,70 +781,22 @@
   </div>
 
   <!-- 側邊攔 -->
-  <div class='vertical-menu-wrapper'>
-    <ul class="vertical-menu ul--reset list-unstyled">
-      <li class="vertical-menu-item is-active">
-        <a class="link--inverse-menu" data-vertical="1" href="#background">專案背景</a>
-      </li>
-      <li class="vertical-menu-item">
-        <a class="link--inverse-menu" data-vertical="2" href="#range">專案範圍</a>
-      </li>
-      <li class="vertical-menu-item">
-        <a class="link--inverse-menu" data-vertical="3" href="#process">設計流程</a>
-      </li>
-      <li class="vertical-menu-item">
-        <a class="link--inverse-menu" data-vertical="4" href="#market">市場研究</a>
-      </li>
-      <li class="vertical-menu-item">
-        <a class="link--inverse-menu" data-vertical="5" href="#target">目標與客群</a>
-      </li>
-      <li class="vertical-menu-item">
-        <a class="link--inverse-menu" data-vertical="6" href="#implement">設計執行</a>
-      </li>
-      <li class="vertical-menu-item">
-        <a class="link--inverse-menu" data-vertical="7" href="#deliver">設計交付</a>
-      </li>
-      <li class="vertical-menu-item">
-        <a class="link--inverse-menu" data-vertical="8" href="#learn">學習與反思</a>
-      </li>
-      <li class="vertical-menu-item">
-        <a class="link--inverse-menu" data-vertical="9" href="#team">團隊合作</a>
-      </li>
-    </ul>
-    <i class='active-marker'>
+
+  <div class="nav_box show">
+    <a class="active" href="journin.html#background">專案背景</a>
+    <a class="" href="journin.html#range">專案範圍</a>
+    <a class="" href="journin.html#process">設計流程</a>
+    <a class="" href="journin.html#market">市場研究</a>
+    <a class="" href="journin.html#target">目標與客群</a>
+    <a class="" href="journin.html#implement">設計執行</a>
+    <a class="" href="journin.html#deliver">設計交付</a>
+    <a class="" href="journin.html#learn">學習與反思</a>
+    <a class="" href="journin.html#team">團隊合作</a>
+    <button type="button" onclick="nav_btn()"></button>
   </div>
 
-
-  <script>
-    const getItemOffset = (item) => {
-      return item.offsetTop;
-    };
-
-    const moveMarker = (offset) => {
-      const marker = document.querySelector('.active-marker');
-      marker.style.transform = `translateY(${offset}px)`;
-
-    };
-
-    const toggleActive = (e) => {
-      e.preventDefault();
-
-      // Remove any existing active classes
-      const links = document.querySelectorAll('.vertical-menu-item');
-      links.forEach((link => link.classList.remove('is-active')));
-
-      // Add class to active link
-      const activeItem = e.target.parentElement
-      activeItem.classList.toggle('is-active');
-      const offset = getItemOffset(activeItem);
-      moveMarker(offset);
-    };
-
-    // Attach click event listener
-    const menu = document.querySelector('.vertical-menu');
-
-    menu.addEventListener('click', toggleActive);
-  </script>
+  <script src="templates/jquery-3.7.1.min.js"></script>
+  <script src="templates/all.js"></script>
 </body>
 
 </html>
