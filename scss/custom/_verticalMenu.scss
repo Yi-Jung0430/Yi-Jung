@@ -36,3 +36,38 @@
     font-weight: 700;
     font-size: 14px;
 }
+
+
+.jump_top.show {
+    display: inline-block;
+}
+
+.jump_top {
+    display: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: opacity .5s;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 3px 3px 0 0 rgba(50, 50, 50, 0.5);
+    width: 50px;
+    height: 50px;
+    line-height: calc(50px - 4px);
+    background: #fdfbf5 url(../images/journin/jump_top.svg) 50% 50% no-repeat;
+}
+
+
+@media (max-width:768px) {
+	.jump_top {
+		right: 15px;
+		bottom: 50px;
+		width: 40px;
+		height: 40px;
+		line-height: calc(40px - 4px);
+	}
+
+	.jump_top::before {
+		font-size: 20px;
+	}
+}

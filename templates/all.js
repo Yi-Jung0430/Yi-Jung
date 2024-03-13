@@ -50,3 +50,19 @@ timeline_trs.forEach(
 );
 
 /* active效果導航區 -- 結束 */
+
+/* 跳至頁端 開始 */
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 600) {
+		$('.jump_top').addClass("show");
+	} else {
+		$('.jump_top').removeClass("show");
+	}
+});
+
+function jump_top() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 300);
+}
+/* 跳至頁端 結束 */
