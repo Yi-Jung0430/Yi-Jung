@@ -15455,7 +15455,7 @@ p {
   transition: all .2s;
 }
 
-.nav_box .active {
+.nav_box a.active {
   color: #212121;
   font-weight: 700;
   font-size: 14px;

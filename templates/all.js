@@ -17,14 +17,16 @@ function nav_btn() {
 //觀察員A
 var observer_A = new IntersectionObserver(function (entries, observer) {
 	//處理工作
-	var current_txt = null;
+	// var current_txt = null;
 	entries.forEach(function (entry) {
 		if (entry.isIntersecting) {
 			//目標元素進入viewport時
 			//$(entry.target).addClass("come");
-			current_txt = $(entry.target).find("h5").text();
+			// current_txt = $(entry.target).find("h5").text();
+			// console.log(current_txt);
 			//
 			$(".nav_box a").removeClass("active");
+			var current_txt = $(entry.target).find("h5").text();
 			$(".nav_box a").each(function () {
 				if (current_txt == $(this).text()) {
 					$(this).addClass("active");
@@ -39,10 +41,10 @@ var observer_A = new IntersectionObserver(function (entries, observer) {
 }, {
 	//相關設定
 	threshold: 0, //1值:viewport內、0.5值:viewport中間、0值:viewport外。
-	rootMargin: "-10% 0px -90% 0px",
+	rootMargin: "8% 0px -95% 0px",
 });
 
-var timeline_trs = document.querySelectorAll('h5');
+var timeline_trs = document.querySelectorAll('.box');
 timeline_trs.forEach(
 	function (t) {
 		observer_A.observe(t);
