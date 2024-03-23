@@ -757,7 +757,7 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1140px;
   }
 }
 :root {
@@ -13813,23 +13813,54 @@ p {
 .nav_box a {
   display: block;
   text-decoration: none;
-  padding-bottom: 16px;
+  padding-bottom: 14px;
   text-align: right;
-  color: #4c4c4c;
+  color: #808080;
   letter-spacing: 1px;
   transition: all 0.2s;
 }
 
-.nav_box .active {
-  color: #212121;
+.nav_box a.active {
+  color: #4e4e4e;
   font-weight: 700;
   font-size: 14px;
 }
 
 .nav_box a:hover {
-  color: #212121;
+  color: #4e4e4e;
   font-weight: 700;
   font-size: 14px;
+}
+
+.jump_top.show {
+  display: inline-block;
+}
+
+.jump_top {
+  display: none;
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 500px;
+  transition: opacity 0.5s;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  line-height: 46px;
+  background: #ffffff url(../image/journin/jump_top.svg) 50% 50% no-repeat;
+}
+
+@media (max-width: 768px) {
+  .jump_top {
+    right: 15px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+  }
+  .jump_top::before {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */

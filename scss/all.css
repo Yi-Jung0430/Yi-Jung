@@ -783,7 +783,7 @@ progress {
 
 @media (min-width: 1400px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    max-width: 1320px;
+    max-width: 1140px;
   }
 }
 
@@ -15440,31 +15440,79 @@ p {
   -webkit-transition: all .3s;
   transition: all .3s;
   margin: 0;
-  padding: 10px 0;
-  width: 180px;
+  padding: 10px 10px;
+  width: 150px;
+}
+
+@media (max-width: 1320px) {
+  .nav_box.show {
+    right: -180px;
+  }
+  .nav_box.show.open {
+    right: 15px;
+    background-color: #fff;
+    border: 2px solid #dfdfdf;
+    border-radius: 6px;
+    padding: 10px;
+  }
 }
 
 .nav_box a {
   display: block;
   text-decoration: none;
-  padding-bottom: 16px;
+  padding-bottom: 14px;
   text-align: right;
-  color: #4c4c4c;
+  color: #808080;
   letter-spacing: 1px;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .nav_box a.active {
-  color: #212121;
+  color: #4e4e4e;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .nav_box a:hover {
-  color: #212121;
+  color: #4e4e4e;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.nav_box button {
+  position: absolute;
+  top: 20px;
+  right: 100%;
+  background: #fff;
+  border: 2px solid #dfdfdf;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  width: 35px;
+  height: 50px;
+  display: none;
+  background: #ffffff url(../image/journin/arrow_l.svg) 50% 50% no-repeat;
+}
+
+.nav_box.open button {
+  background: #ffffff url(../image/journin/arrow_r.svg) 50% 50% no-repeat;
+}
+
+.nav_box.open button {
+  display: none;
+}
+
+.nav_box button {
+  display: none;
+}
+
+@media (max-width: 1320px) {
+  .nav_box button {
+    display: inline-block;
+  }
+  .nav_box.open button {
+    display: inline-block;
+  }
 }
 
 .jump_top.show {
@@ -15473,19 +15521,17 @@ p {
 
 .jump_top {
   display: none;
-  border: 2px solid #333;
-  border-radius: 5px;
+  border: 2px solid #dfdfdf;
+  border-radius: 500px;
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
   position: fixed;
   right: 30px;
   bottom: 30px;
-  -webkit-box-shadow: 3px 3px 0 0 rgba(50, 50, 50, 0.5);
-          box-shadow: 3px 3px 0 0 rgba(50, 50, 50, 0.5);
   width: 50px;
   height: 50px;
   line-height: calc(50px - 4px);
-  background: #fdfbf5 url(../images/journin/jump_top.svg) 50% 50% no-repeat;
+  background: #ffffff url(../image/journin/jump_top.svg) 50% 50% no-repeat;
 }
 
 @media (max-width: 768px) {
