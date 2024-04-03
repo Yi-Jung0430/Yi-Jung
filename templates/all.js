@@ -1,7 +1,7 @@
 
 /* 導航區 開始 */
 $(window).scroll(function () {
-	if ($(this).scrollTop() > 350) {
+	if ($(this).scrollTop() > 0) {
 		$('.nav_box').addClass("show");
 	} else {
 		$('.nav_box').removeClass("show");
@@ -55,7 +55,7 @@ timeline_trs.forEach(
 
 /* 跳至頁端 開始 */
 $(window).scroll(function () {
-	if ($(this).scrollTop() > 600) {
+	if ($(this).scrollTop() > 0) {
 		$('.jump_top').addClass("show");
 	} else {
 		$('.jump_top').removeClass("show");
