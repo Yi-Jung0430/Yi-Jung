@@ -13806,10 +13806,22 @@ p {
   transform: translateY(-50%);
   transition: all 0.3s;
   margin: 0;
-  padding: 10px 0;
-  width: 180px;
+  padding: 10px 10px;
+  width: 150px;
 }
 
+@media (max-width: 1320px) {
+  .nav_box.show {
+    right: -150px;
+  }
+  .nav_box.show.open {
+    right: 15px;
+    background-color: #fff;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 6px;
+    padding: 10px;
+  }
+}
 .nav_box a {
   display: block;
   text-decoration: none;
@@ -13823,15 +13835,49 @@ p {
 .nav_box a.active {
   color: #4e4e4e;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .nav_box a:hover {
   color: #4e4e4e;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
 }
 
+.nav_box button {
+  position: absolute;
+  top: 20px;
+  right: 100%;
+  background: #fff;
+  border: 2px solid rgb(223, 223, 223);
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  width: 35px;
+  height: 50px;
+  display: none;
+  background: #ffffff url(../image/journin/arrow_l.svg) 50% 50% no-repeat;
+}
+
+.nav_box.open button {
+  background: #ffffff url(../image/journin/arrow_r.svg) 50% 50% no-repeat;
+}
+
+.nav_box.open button {
+  display: none;
+}
+
+.nav_box button {
+  display: none;
+}
+
+@media (max-width: 1320px) {
+  .nav_box button {
+    display: inline-block;
+  }
+  .nav_box.open button {
+    display: inline-block;
+  }
+}
 .jump_top.show {
   display: inline-block;
 }
