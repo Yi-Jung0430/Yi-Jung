@@ -1,0 +1,32 @@
+.overview-title::before,
+.overview-title::after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #4b4b4b;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-.5rem);
+}
+
+hr {
+    opacity: 0.15;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4b4b4b;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #4b4b4b;
+}
+

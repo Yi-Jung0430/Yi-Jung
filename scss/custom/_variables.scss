@@ -46,6 +46,7 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+$journin: #A7AD11;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -63,7 +64,8 @@ $colors: (
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "journin":    $journin
 ) !default;
 // scss-docs-end colors-map
 
@@ -175,6 +177,16 @@ $cyan-600: shade-color($cyan, 20%) !default;
 $cyan-700: shade-color($cyan, 40%) !default;
 $cyan-800: shade-color($cyan, 60%) !default;
 $cyan-900: shade-color($cyan, 80%) !default;
+
+$journin-100: tint-color($journin, 80%) !default;
+$journin-200: tint-color($journin, 60%) !default;
+$journin-300: tint-color($journin, 40%) !default;
+$journin-400: tint-color($journin, 20%) !default;
+$journin-500: $journin !default;
+$journin-600: shade-color($journin, 20%) !default;
+$journin-700: shade-color($journin, 40%) !default;
+$journin-800: shade-color($journin, 60%) !default;
+$journin-900: shade-color($journin, 80%) !default;
 
 $blues: (
   "blue-100": $blue-100,
@@ -306,6 +318,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
+$journin:       $journin;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -317,7 +330,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "journin":    $journin,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -330,6 +344,7 @@ $warning-text-emphasis:   shade-color($warning, 60%) !default;
 $danger-text-emphasis:    shade-color($danger, 60%) !default;
 $light-text-emphasis:     $gray-700 !default;
 $dark-text-emphasis:      $gray-700 !default;
+$journin-text-emphasis:      $journin;
 // scss-docs-end theme-text-variables
 
 // scss-docs-start theme-bg-subtle-variables

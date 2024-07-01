@@ -6,12 +6,28 @@
     justify-content: flex-end;
 }
 
-h5,h6 {
-    font-weight: $font-weight-semibold;
-}
+// h5,h6 {
+//     font-weight: $font-weight-semibold;
+// }
 
 p {
     line-height: $line-height-lg;
     color: #4b4b4b;
 }
 
+.fs-7 {
+    font-size: .9rem;
+}
+
+.fs-8 {
+    font-size: .8rem;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.card-title,
+.card-body {
+    color: #475467;
+}
