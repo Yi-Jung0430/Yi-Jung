@@ -1,7 +1,7 @@
 
 /* 導航區 開始 */
 $(window).scroll(function () {
-	if ($(this).scrollTop() > 0) {
+	if ($(this).scrollTop() > 400 ) {
 		$('.nav_box').addClass("show");
 	} else {
 		$('.nav_box').removeClass("show");
