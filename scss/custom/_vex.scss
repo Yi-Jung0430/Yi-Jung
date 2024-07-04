@@ -1,0 +1,23 @@
+.vex {
+    .list-number {
+        width: 40px;
+        height: 40px;
+        background-color: $vex;
+        color: #fff;
+        padding: 4px 9px;
+        text-align: center;
+        border-radius: 0;
+    }
+    .list-number2 {
+        width: 40px;
+        height: 40px;
+        background-color: #7567C8;
+        color: #fff;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 0;
+        border-radius: 50%;
+        font-size: 12px;
+    }
+
+}

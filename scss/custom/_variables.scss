@@ -47,6 +47,8 @@ $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
 $journin: #A7AD11;
+$vex:     #7AA5C7;
+$vex2:    #C5A2BF;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -65,7 +67,9 @@ $colors: (
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800,
-  "journin":    $journin
+  "journin":    $journin,
+  "vex":        $vex,
+  "vex2":       $vex2,
 ) !default;
 // scss-docs-end colors-map
 
@@ -187,6 +191,16 @@ $journin-600: shade-color($journin, 20%) !default;
 $journin-700: shade-color($journin, 40%) !default;
 $journin-800: shade-color($journin, 60%) !default;
 $journin-900: shade-color($journin, 80%) !default;
+
+$vex-100: tint-color($vex, 80%) !default;
+$vex-200: tint-color($vex, 60%) !default;
+$vex-300: tint-color($vex, 40%) !default;
+$vex-400: tint-color($vex, 20%) !default;
+$vex-500: $vex !default;
+$vex-600: shade-color($vex, 20%) !default;
+$vex-700: shade-color($vex, 40%) !default;
+$vex-800: shade-color($vex, 60%) !default;
+$vex-900: shade-color($vex, 80%) !default;
 
 $blues: (
   "blue-100": $blue-100,
@@ -319,6 +333,8 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 $journin:       $journin;
+$vex:           $vex;
+$vex2:          $vex2;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -332,6 +348,8 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "journin":    $journin,
+  "vex":        $vex,
+  "vex2":       $vex2,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -345,6 +363,7 @@ $danger-text-emphasis:    shade-color($danger, 60%) !default;
 $light-text-emphasis:     $gray-700 !default;
 $dark-text-emphasis:      $gray-700 !default;
 $journin-text-emphasis:      $journin;
+$vex-text-emphasis:      $vex;
 // scss-docs-end theme-text-variables
 
 // scss-docs-start theme-bg-subtle-variables
@@ -526,8 +545,8 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px,
-  xxl: 1140px
+  xl: 1000px,
+  xxl: 1100px
 ) !default;
 // scss-docs-end container-max-widths
 
