@@ -1,0 +1,166 @@
+#gradient-bg {
+    margin: 0;
+    background: linear-gradient(#ffffff, #f5f6f8);
+    overflow: hidden;
+    position: relative;
+  }
+
+@keyframes one {
+    0% {
+      transform: translate(0px, 85px);
+    }
+    25% {
+      background: #f6f9fb;
+      transform: translate(20vw, 0px);
+    }
+    50% {
+      background: #9966ff;
+      transform: translate(0px, 85px);
+    }
+    75% {
+      background: #f6f9fb;
+      transform: translate(20vw, 0px);
+    }
+    100% {
+      background: #52e8e1c8;
+      transform: translate(0px, 85px);
+    }
+  }
+  
+  @keyframes two {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    25% {
+      background: #80eaffce;
+      transform: translate(20vw, 85px);
+    }
+    50% {
+      background: #f6f9fb;
+      transform: translate(0px, 0px);
+    }
+    75% {
+      background: #ffd256;
+      transform: translate(20vw, 170px);
+    }
+    100% {
+      background: #f6f9fb;
+      transform: translate(0px, 0px);
+    }
+  }
+  
+  @keyframes three {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    25% {
+      background: #2a69f1;
+      transform: translate(40vw, 85px);
+    }
+    50% {
+      background: #2767f1;
+      transform: translate(0px, 0px);
+    }
+    75% {
+      background: #a67ef5;
+      transform: translate(40vw, 85px);
+    }
+    100% {
+      background: #ad8dee;
+      transform: translate(0px, 0px);
+    }
+  }
+  
+  @keyframes four {
+    0% {
+      transform: translate(20vw, 0px);
+    }
+    25% {
+      background: #7a73ff;
+      transform: translate(0px, 85px);
+    }
+    50% {
+      background: #f97cf9;
+      transform: translate(20vw, 0px);
+    }
+    75% {
+      background: #7a73ff;
+      transform: translate(0px, 85px);
+    }
+    100% {
+      background: #6c91e1;
+      transform: translate(20vw, 0px);
+    }
+  }
+  
+  .blur {
+    position: absolute;
+    bottom: 170px;
+    width: 60vw;
+    height: 340px;
+    border-radius: 50% 50%;
+    opacity: 1;
+  }
+  
+  .one {
+    background: #43ece3;
+    z-index: 3;
+    animation: 20s one ease infinite;
+  }
+  
+  .two {
+    background: #f6f9fb;
+    left: 20vw;
+    z-index: 4;
+    animation: 20s two ease infinite;
+  }
+  
+  .three {
+    background: #9966ff;
+    left: 40vw;
+    z-index: 2;
+    animation: 20s three ease infinite;
+  }
+  
+  .four {
+    background: #2572f6;
+    left: 60vw;
+    animation: 20s four ease infinite;
+  }
+  
+  .wrapper {
+    position: fixed;
+    background: linear-gradient(#ffffff, #f5f6f8);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+
+  
+  #blurwrapper {
+    position:absolute;
+    bottom:0;
+    filter: blur(120px);
+    opacity:1;
+    
+  }
+  
+  #positionwrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+   
+  }
+  
+  #noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cortex.persona.co/t/original/i/d249e632dd96ecccb9ec33cf92dff16b6d76c8b2f46542c3b01b07c3dc1034cd/image-46-copy.png);
+    background-size: 100px;
+    opacity: 1;
+    z-index: 9;
+  }
+  

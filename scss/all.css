@@ -22443,14 +22443,6 @@ p {
   color: #475467;
 }
 
-.home__bg {
-  background-image: url(../image/bg.PNG);
-  background-position: left top;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
-
 .overview-title::before,
 .overview-title::after {
   display: inline-block;

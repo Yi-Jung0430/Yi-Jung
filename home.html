@@ -4,13 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="templates/all.css" />
+  <!-- <link rel="stylesheet" href="templates/all.css" /> -->
+  <link rel="stylesheet" href="scss/all.css" />
+  <link rel="stylesheet" href="scss/custom/bg.css">
   <title>Julie Lin</title>
 </head>
 
 <body class="home__bg">
+
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <nav class="navbar navbar-expand-lg  sticky-top">
     <div class="container-fluid container-xl">
       <a class="navbar-brand " href="home.html">
         <img src="image/logo.png" alt="Logo" width="40" class="d-inline-block align-middle" />
@@ -39,21 +42,41 @@
       </div>
     </div>
   </nav>
-  <!-- 簡述 -->
-  <!-- <div class="container">
-        <div class="row pt-3">
-            <div class="col-9">
-                <h2 class="h1">
-                    Hi ! 我是林依蓉<br>
-                    設計與切版技能兼具的 UI 設計師<br>
-                    持續發掘更好的可能，對介面設計、對使用者體驗。對自己、對世界。
-                </h2>
-            </div>
-            <div class="col-3">
-                <img src="image/home/pro.png" alt="">
-            </div>
+
+  <div id="gradient-bg">
+    <div id="positionwrapper" class="container">
+      <div class="row pt-5">
+        <!-- 簡述 -->
+        <div class="col-9">
+          <h2 class="h1">
+            Hi ! 我是林依蓉<br>
+            設計與切版技能兼具的 UI 設計師<br>
+            持續發掘更好的可能，對介面設計、對使用者體驗。對自己、對世界。
+          </h2>
         </div>
-    </div> -->
+        <div class="col-3">
+          <img src="image/home/pro.png" alt="">
+        </div>
+      </div>
+      <div id="blurwrapper">
+        <div class="blur one"></div>
+        <div class="blur two"></div>
+        <div class="blur four"></div>
+        <div class="blur three"></div>
+      </div>
+      <div id="noise"></div>
+    </div>
+  </div>
+  
+
+
+
+  </div>
+
+
+
+
+
 
   <!-- 精選案例 -->
   <div class="container">
@@ -139,28 +162,11 @@
     </div>
   </div>
 
-  <!-- 電繪 手繪 -->
-  <div class="container">
-    <div class="row">
-      <div class="col-12 mt-5">
-        <h3>電繪 / 手繪</h3>
-      </div>
-      <div class="col-4">
-        <img src="..." class="img-fluid" alt="...">
-      </div>
-      <div class="col-4">
-        <img src="..." class="img-fluid" alt="...">
-      </div>
-      <div class="col-4">
-        <img src="..." class="img-fluid" alt="...">
-      </div>
-    </div>
-  </div>
-
 
   <script src="templates/jquery-3.7.1.min.js"></script>
   <script src="templates/js/bootstrap.bundle.min.js"></script>
   <script src="templates/all.js"></script>
+
 </body>
 
 </html>
