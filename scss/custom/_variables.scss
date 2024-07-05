@@ -49,6 +49,8 @@ $cyan:    #0dcaf0 !default;
 $journin: #A7AD11;
 $vex:     #7AA5C7;
 $vex2:    #C5A2BF;
+$tong:     #0069A4;
+$tong2:     #0E2661;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -70,6 +72,8 @@ $colors: (
   "journin":    $journin,
   "vex":        $vex,
   "vex2":       $vex2,
+  "tong":        $tong,
+  "tong2":       $tong2,
 ) !default;
 // scss-docs-end colors-map
 
@@ -201,6 +205,16 @@ $vex-600: shade-color($vex, 20%) !default;
 $vex-700: shade-color($vex, 40%) !default;
 $vex-800: shade-color($vex, 60%) !default;
 $vex-900: shade-color($vex, 80%) !default;
+
+$tong-100: tint-color($tong, 80%) !default;
+$tong-200: tint-color($tong, 60%) !default;
+$tong-300: tint-color($tong, 40%) !default;
+$tong-400: tint-color($tong, 20%) !default;
+$tong-500: $tong !default;
+$tong-600: shade-color($tong, 20%) !default;
+$tong-700: shade-color($tong, 40%) !default;
+$tong-800: shade-color($tong, 60%) !default;
+$tong-900: shade-color($tong, 80%) !default;
 
 $blues: (
   "blue-100": $blue-100,
@@ -335,6 +349,8 @@ $dark:          $gray-900 !default;
 $journin:       $journin;
 $vex:           $vex;
 $vex2:          $vex2;
+$tong:           $tong;
+$tong2:          $tong2;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -350,6 +366,8 @@ $theme-colors: (
   "journin":    $journin,
   "vex":        $vex,
   "vex2":       $vex2,
+  "tong":        $tong,
+  "tong2":       $tong2,
 ) !default;
 // scss-docs-end theme-colors-map
 

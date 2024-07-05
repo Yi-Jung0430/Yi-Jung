@@ -1,0 +1,25 @@
+.test-bg {
+    background-image: url(../image/tong/testBg.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test-bg2 {
+    background-image: url(../image/tong/testBg2.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tong {
+    .list-number {
+        width: 40px;
+        height: 40px;
+        background-color: $tong;
+        color: #fff;
+        padding: 4px 9px;
+        text-align: center;
+        border-radius: 0;
+    }
+}
