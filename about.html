@@ -11,13 +11,13 @@
     <title>Julie Lin</title>
 </head>
 
-<body class="g">
+<body class="">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
         <div class="container-fluid container-xl">
             <a class="navbar-brand " href="home.html">
-                <img src="image/logo.png" alt="Logo" width="40" class="d-inline-block align-text-top" />
-                Julie Lin
+                <img src="image/logo.png" alt="Logo" width="40" class="d-inline-block align-middle" />
+                <span class="ps-2 d-inline-block" style="line-height: 52px;">Julie Lin</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,36 +27,243 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">精選作品</a>
+                        <a class="nav-link active" aria-current="page" href="home.html#case">精選作品</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">關於我</a>
+                        <a class="nav-link" href="about.html">關於我</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">聯絡我</a>
+                        <a class="nav-link" href="home.html#footer">聯絡我</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="btn btn-dark" href="#" role="button">下載履歷</a>
+                    <li class="nav-item ps-2">
+                        <a class="btn btn-dark" href="image/sample.pdf" role="button" download>下載履歷</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- 簡述 -->
-    <!-- <div class="container">
-        <div class="row pt-3">
-            <div class="col-9">
-                <h2 class="h1">
-                    Hi ! 我是林依蓉<br>
-                    設計與切版技能兼具的 UI 設計師<br>
-                    持續發掘更好的可能，對介面設計、對使用者體驗。對自己、對世界。
-                </h2>
-            </div>
-            <div class="col-3">
-                <img src="image/pro.png" alt="">
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-8">
+                <h4>旅程是這樣開始</h4>
+                <p>
+                    我是林依蓉
+                    擁有藝術創意產業學系學士學位
+                    對藝術與設計持續保有關注與熱忱
+                    對 UI 設計的起點是機緣下為國立成功大學某電機系實驗室製作官網並上線
+                    解決了長期研究生的招生問題
+                    這讓我體認到設計不只是視覺上的美，而是可以實際解決問題或帶來價值，設計變的有用且務實讓我為之嚮往，於是成為 UI 設計師，同時精通切版技能，可製作符合工程邏輯的設計稿。
+                    至今累績三年相關經驗，目前持續精進 UI 設計相關的軟硬實力，同時為了更了解使用者，UX 領域是目前自學的項目，致力於創造好看且好用並符合需求的產品。
+                </p>
             </div>
         </div>
-    </div> -->
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h4>精通設計與切版工具</h4>
+            </div>
+            <div class="col-12 mt-3">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4 text-center">
+                            <img src="image/about/icon_design.svg" class="img-fluid rounded-start" alt="icon">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">設計</h5>
+                                <ul class="card-text list-unstyled">
+                                    <li>
+                                        使用 figma 繪製 wireframe、mockup、prototype
+                                    </li>
+                                    <li>
+                                        使用 figJam 整理歸納需求，繪製 functional map、user flow
+                                    </li>
+                                </ul>
+                                <div class="">
+                                    <span class="badge rounded-pill text-bg-light text-secondary">Figma</span>
+                                    <span class="badge rounded-pill text-bg-light text-secondary">FigJam</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-1">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4 text-center">
+                            <img src="image/about/icon_html.svg" class="img-fluid rounded-start" alt="icon">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">切版</h5>
+                                <ul class="card-text list-unstyled">
+                                    <li>
+                                        精通 Html、Css 程式語言將設計稿製作成靜態網站
+                                    </li>
+                                    <li>
+                                        擅長使用 Bootstrap 、Tailwind Css 等框架客製化應用在專案上
+                                    </li>
+                                    <li>
+                                        使用 Git 做版本管理與工程交付
+                                    </li>
+                                </ul>
+                                <div class="">
+                                    <span class="badge rounded-pill text-bg-light text-secondary">Html5</span>
+                                    <span class="badge rounded-pill text-bg-light text-secondary">Css3</span>
+                                    <span class="badge rounded-pill text-bg-light text-secondary">Bootstrap</span>
+                                    <span class="badge rounded-pill text-bg-light text-secondary">Tailwind</span>
+                                    <span class="badge rounded-pill text-bg-light text-secondary">Git</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 工作經驗 -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h4>工作經驗
+                </h4>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-4">
+                <p>
+                    UI 設計師 + 切版
+                </p>
+                <p>
+                    碩睿資訊有限公司 全職
+                </p>
+                <p>
+                    2022 年 3 月 - 現在
+                </p>
+
+            </div>
+            <div class="col-8">
+                <p>
+                    碩睿資訊致力於提供優質且完整的電子資源服務，為學術研究、醫療事業、政府機關以及各產業提供重要的資訊來源，同時提供建立系統與製作專案的客製化服務。
+                </p>
+                <ul>
+                    <li>與企劃、設計師、工程師合作完成專案 。</li>
+                    <li>與企劃一起進行跟客戶的需求訪談，了解核心需求，給予適當的設計建議。</li>
+                    <li>將企劃提供的 wireframe 製作成 mockup 與 prototype ，再與客戶確認與溝通。</li>
+                    <li>建立元件庫或設計系統等相關規範，建立一致性以及可協作的設計環境。</li>
+                    <li>使用 html、css 進行切版製作成靜態網站，並交付給工程師。</li>
+                    <li>專案完成後與企劃一起進行設計與功能的測試，確保符合設計規範與功能需求。</li>
+                </ul>
+            </div>
+
+            <div class="col-4 mt-5">
+                <p>
+                    官網設計與製作
+                </p>
+                <p>
+                    國立成功大學 接案
+                </p>
+                <p>
+                    2020 年 8 月 - 2021 年 4 月 -9 個月
+                </p>
+
+            </div>
+            <div class="col-8 mt-5">
+                <p>
+                    為智慧城市與網路研究中心、電機系 CATS LAB 實驗室製作官網。
+                </p>
+                <ul>
+                    <li>與案主接洽、進行需求訪談，了解網站製作目的。</li>
+                    <li>將資料歸納分層，定義網站架構與流程。</li>
+                    <li>風格發想、定義主色調，完成視覺設計。</li>
+                    <li>繪製 wireframe、mockup 與案主討論，在不同階段進行確認產出符合案主需求。</li>
+                    <li>使用 html5、css3、bootstrap 製作成靜態網站。</li>
+                    <li>後續定期維護與更新。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 活動餐與 -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h4>活動參與
+                </h4>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-4">
+                <p>
+                    UI 設計師 + 切版
+                </p>
+                <p>
+                    碩睿資訊有限公司 全職
+                </p>
+                <p>
+                    2022 年 3 月 - 現在
+                </p>
+
+            </div>
+            <div class="col-8">
+                <p>
+                    碩睿資訊致力於提供優質且完整的電子資源服務，為學術研究、醫療事業、政府機關以及各產業提供重要的資訊來源，同時提供建立系統與製作專案的客製化服務。
+                </p>
+                <ul>
+                    <li>與企劃、設計師、工程師合作完成專案 。</li>
+                    <li>與企劃一起進行跟客戶的需求訪談，了解核心需求，給予適當的設計建議。</li>
+                    <li>將企劃提供的 wireframe 製作成 mockup 與 prototype ，再與客戶確認與溝通。</li>
+                    <li>建立元件庫或設計系統等相關規範，建立一致性以及可協作的設計環境。</li>
+                    <li>使用 html、css 進行切版製作成靜態網站，並交付給工程師。</li>
+                    <li>專案完成後與企劃一起進行設計與功能的測試，確保符合設計規範與功能需求。</li>
+                </ul>
+            </div>
+
+            <div class="col-4 mt-5">
+                <p>
+                    官網設計與製作
+                </p>
+                <p>
+                    國立成功大學 接案
+                </p>
+                <p>
+                    2020 年 8 月 - 2021 年 4 月 -9 個月
+                </p>
+
+            </div>
+            <div class="col-8 mt-5">
+                <p>
+                    為智慧城市與網路研究中心、電機系 CATS LAB 實驗室製作官網。
+                </p>
+                <ul>
+                    <li>與案主接洽、進行需求訪談，了解網站製作目的。</li>
+                    <li>將資料歸納分層，定義網站架構與流程。</li>
+                    <li>風格發想、定義主色調，完成視覺設計。</li>
+                    <li>繪製 wireframe、mockup 與案主討論，在不同階段進行確認產出符合案主需求。</li>
+                    <li>使用 html5、css3、bootstrap 製作成靜態網站。</li>
+                    <li>後續定期維護與更新。</li>
+                </ul>
+            </div>
+        </div>
+        <p>(證書)</p>
+    </div>
+
+    <!-- 社群交流 -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h4>
+                    社群交流
+                </h4>
+            </div>
+        </div>
+    </div>
+
 
     <!-- footer -->
     <div id="footer" class="footer container-fluid py-4 bg-light">
