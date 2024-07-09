@@ -30,3 +30,11 @@ h6 {
     color: #4b4b4b;
 }
 
+a.shadow-sm {
+    transition: all .3s;
+}
+a.shadow-sm:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+}
+
