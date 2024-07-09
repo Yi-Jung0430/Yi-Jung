@@ -5,15 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- <link rel="stylesheet" href="templates/all.css" /> -->
-  <link rel="stylesheet" href="scss/all.css" />
   <link rel="stylesheet" href="scss/custom/bg.css">
+  <link rel="stylesheet" href="scss/all.css" />
+
   <title>Julie Lin</title>
 </head>
 
-<body class="home__bg">
+<body class="">
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg  sticky-top">
+  <nav class="navbar navbar-expand-lg sticky-top bg-white">
     <div class="container-fluid container-xl">
       <a class="navbar-brand " href="home.html">
         <img src="image/logo.png" alt="Logo" width="40" class="d-inline-block align-middle" />
@@ -27,16 +28,16 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.html">精選作品</a>
+            <a class="nav-link active" aria-current="page" href="home.html#case">精選作品</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">關於我</a>
+            <a class="nav-link" href="about.html">關於我</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">聯絡我</a>
+            <a class="nav-link" href="home.html#footer">聯絡我</a>
           </li>
-          <li class="nav-item">
-            <a class="btn btn-dark" href="#" role="button">下載履歷</a>
+          <li class="nav-item ps-2">
+            <a class="btn btn-dark" href="image/sample.pdf" role="button" download>下載履歷</a>
           </li>
         </ul>
       </div>
@@ -44,20 +45,7 @@
   </nav>
 
   <div id="gradient-bg">
-    <div id="positionwrapper" class="container">
-      <div class="row pt-5">
-        <!-- 簡述 -->
-        <div class="col-9">
-          <h2 class="h1">
-            Hi ! 我是林依蓉<br>
-            設計與切版技能兼具的 UI 設計師<br>
-            持續發掘更好的可能，對介面設計、對使用者體驗。對自己、對世界。
-          </h2>
-        </div>
-        <div class="col-3">
-          <img src="image/home/pro.png" alt="">
-        </div>
-      </div>
+    <div id="positionwrapper" class="container-fluid">
       <div id="blurwrapper">
         <div class="blur one"></div>
         <div class="blur two"></div>
@@ -66,71 +54,116 @@
       </div>
       <div id="noise"></div>
     </div>
-  </div>
-
-
-  <!-- 精選案例 -->
-  <div class="container">
-    <div class="row mt-8">
-      <div class="col-12 text-center">
-        <h3>精選案例</h3>
+    <div class="container position-relative cu_hero">
+      <div class="row h-100 align-items-center">
+        <!-- 簡述 -->
+        <div class="col-9">
+          <h2 class="h1 lh-base">
+            Hi ! 我是林依蓉<br>
+            一位 UI / UX Designer
+          </h2>
+          <p class="fs-4">
+            擁有4年設計經驗，
+            精通切版技能，<br>
+            擅長產出符合工程邏輯的介面，<br>
+            著迷於用設計靠近使用者並解決需求。
+          </p>
+        </div>
+        <div class="col-3">
+          <img src="image/home/pro.png" alt="">
+        </div>
       </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
-      <div class="col">
-        <a href="vex.html" class="card h-100 text-decoration-none">
-          <img src="image/home/project01Cover.svg" class="card-img-top" alt="專案圖片">
-          <div class="card-body">
-            <small class="text-gray">VEX 賽事管理系統</small>
-            <h5 class="card-title">世界最大規模的機器人比賽，為台灣賽事主辦方打造易於管理且操作流暢的賽事辦理體驗</h5>
-            <div>
-              <span class="badge rounded-pill text-bg-light text-secondary">UX</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">UI</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">Web</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">Html</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">Css</span>
+  </div>
+
+  </div>
+
+  <!-- 精選案例 -->
+  <div class="container" id="case">
+    <div class="row pt-9">
+      <div class="col-12 text-center">
+        <h3>精選作品</h3>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12">
+        <a href="vex.html" class="card mb-3 text-decoration-none border-0 shadow-sm rounded">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="image/home/project01Cover.svg" class="img-fluid rounded-start" alt="專案圖片">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body h-100 p-4 d-flex flex-column justify-content-between">
+                <div class="">
+                  <h5 class="card-title fs-4 fw-semibold">VEX 賽事管理系統</h5>
+                  <p class="card-text fs-5 lh-base">世界最大規模的機器人比賽，為台灣賽事主辦方打造易於管理且操作流暢的賽事辦理體驗。</p>
+                </div>
+                <div class="">
+                  <span class="badge rounded-pill text-bg-light text-secondary">UX</span>
+                  <span class="badge rounded-pill text-bg-light text-secondary">UI</span>
+                  <span class="badge rounded-pill text-bg-light text-secondary">Web</span>
+                  <span class="badge rounded-pill text-bg-light text-secondary">Html</span>
+                  <span class="badge rounded-pill text-bg-light text-secondary">Css</span>
+                </div>
+              </div>
             </div>
           </div>
         </a>
       </div>
 
+      <div class="col-12 mt-4">
+        <a href="tong.html" class="card mb-3 text-decoration-none border-0 shadow-sm rounded">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="image/home/project02Cover.svg" class="img-fluid rounded-start" alt="專案圖片">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body h-100 p-4 d-flex flex-column justify-content-between">
+                <div class="">
+                  <h5 class="card-title fs-4 fw-semibold">童綜合醫院醫學檢索庫</h5>
+                  <p class="card-text fs-5 lh-base">保存珍貴的心臟臨床案例，提供心臟科的醫療人員獲得完整且易於搜尋的病例檢索平台。</p>
+                </div>
+                <div>
+                  <span class="badge rounded-pill text-bg-light text-secondary">UI</span>
+                  <span class="badge rounded-pill text-bg-light text-secondary">Web</span>
+                  <span class="badge rounded-pill text-bg-light text-secondary">Html</span>
+                  <span class="badge rounded-pill text-bg-light text-secondary">Css</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
 
-      <div class="col">
-        <a href="vex.html" class="card h-100 text-decoration-none">
-          <img src="image/home/project02Cover.svg" class="card-img-top" alt="專案圖片">
-          <div class="card-body">
-            <small class="text-gray">童綜合醫院醫學檢索庫</small>
-            <h5 class="card-title">保存珍貴的心臟臨床案例，提供心臟科的醫療人員獲得完整且易於搜尋的病例檢索平台</h5>
-            <div>
-              <span class="badge rounded-pill text-bg-light text-secondary">UI</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">Web</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">Html</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">Css</span>
+    <div class="col-12 mt-4">
+      <a href="journin.html" class="card mb-3 text-decoration-none border-0 shadow-sm rounded">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="image/home/project03Cover.svg" class="img-fluid rounded-start" alt="專案圖片">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body h-100 p-4 d-flex flex-column justify-content-between">
+              <div class="">
+                <h5 class="card-title fs-4 fw-semibold">獨旅友善的訂房 App</h5>
+                <p class="card-text fs-5 lh-base">提供背包客快速彈性的訂房流程，享受一個人的旅行!</p>
+              </div>
+              <div>
+                <span class="badge rounded-pill text-bg-light text-secondary">UX</span>
+                <span class="badge rounded-pill text-bg-light text-secondary">UI</span>
+                <span class="badge rounded-pill text-bg-light text-secondary">App</span>
+              </div>
             </div>
           </div>
-        </a>
-      </div>
-      <div class="col">
-        <a href="vex.html" class="card h-100 text-decoration-none">
-          <img src="image/home/project03Cover.svg" class="card-img-top" alt="專案圖片">
-          <div class="card-body">
-            <small class="text-gray">獨旅友善的訂房 App</small>
-            <h5 class="card-title">提供背包客快速彈性的訂房流程，享受一個人的旅行!</h5>
-            <div>
-              <span class="badge rounded-pill text-bg-light text-secondary">UX</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">UI</span>
-              <span class="badge rounded-pill text-bg-light text-secondary">App</span>
-            </div>
-          </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   </div>
 
   <!-- 精選文章 -->
-  <div class="container">
-    <div class="row mt-8">
+  <div class="container mb-6">
+    <div class="row mt-9">
       <div class="col-12 text-center">
         <h3>精選文章</h3>
       </div>
@@ -138,13 +171,16 @@
 
     <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
       <div class="col">
-        <a href="vex.html" class="card h-100 text-decoration-none">
+        <a target="_blank"
+          href="https://medium.com/as-a-product-designer/2023-aapd-%E7%AC%AC%E4%B8%80%E5%B1%86-ui-%E5%AF%A6%E6%88%B0%E7%87%9F-%E5%8F%83%E5%8A%A0%E5%BF%83%E5%BE%97-a0f9a215d273"
+          class="card h-100 text-decoration-none border-0 shadow-sm rounded">
           <img src="image/home/write01Cover.svg" class="card-img-top" alt="文章圖片">
           <div class="card-body">
-            <small class="text-gray">課程心得</small>
-            <h5 class="card-title">【2023 AAPD 第一屆 UI 實戰營】參加心得</h5>
+            <span class="badge rounded-pill text-bg-light text-secondary">課程心得</span>
+
+            <h5 class="card-title fs-4 lh-base mt-2">【2023 AAPD 第一屆 UI 實戰營】參加心得</h5>
             <p class="card-text">
-              為期 40 天， 營期間超過 10 場直播教學、講座和活動。透過課程作業與實際專案輸出的高效學習機制，還有專業助教團隊全程輔導，協助批改作業與回答問題。
+              為期 40 天， 營期間超過 10 場直播教學、講座和活動。透過課程作業與實際專案輸出的高效學習機制，是我參加過最紮實的 UI 課程!
             </p>
           </div>
         </a>
@@ -152,46 +188,56 @@
 
 
       <div class="col">
-        <a href="vex.html" class="card h-100 text-decoration-none">
+        <a target="_blank"
+          href="https://medium.com/@yijunglin13079/ltux-taipei-%E7%94%A2%E5%93%81%E8%A8%AD%E8%A8%88%E5%B8%AB%E7%9A%84%E9%A4%8A%E6%88%90%E4%B9%8B%E8%B7%AF-%E8%AC%9B%E5%BA%A7%E5%BF%83%E5%BE%97-095f6b3ea933"
+          class="card h-100 text-decoration-none border-0 shadow-sm rounded">
           <img src="image/home/write02Cover.svg" class="card-img-top" alt="文章圖片">
           <div class="card-body">
-            <small class="text-gray">講座心得</small>
-            <h5 class="card-title">【LTUX Taipei | 產品設計師的養成之路】講座心得</h5>
+            <span class="badge rounded-pill text-bg-light text-secondary">講座心得</span>
+            <h5 class="card-title fs-4 lh-base mt-2">【LTUX Taipei | 產品設計師的養成之路】講座心得</h5>
             <p class="card-text">
-              講座分別請到在馬來西亞 Touch ‘n Go 集團產品設計主管、同時也是 Ladies that UX Kuala Lumpur 的會長 Tiffany、產品設計顧問/設計導師 May
-              來分享他們的經歷與看法。最後的問答時間還有台達電資深產品設計師 Sandy 共同討論。
+              請到在馬來西亞 Touch ‘n Go 集團產品設計主管、同時也是 Ladies that UX Kuala Lumpur 的會長 Tiffany、產品設計顧問/設計導師 May
+              來分享他們的經歷與看法。
             </p>
           </div>
         </a>
       </div>
       <div class="col">
-        <a href="vex.html" class="card h-100 text-decoration-none">
+        <a target="_blank"
+          href="https://medium.com/@yijunglin13079/%E8%B7%A8%E9%83%A8%E9%96%80%E5%8D%94%E4%BD%9C-%E8%A8%AD%E8%A8%88%E5%B8%AB%E8%88%87%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%AF%87-352fbe767428"
+          class="card h-100 text-decoration-none border-0 shadow-sm rounded">
           <img src="image/home/write03Cover.svg" class="card-img-top" alt="文章圖片">
           <div class="card-body">
-            <small class="text-gray">團隊合作</small>
-            <h5 class="card-title">【跨部門協作】設計師與工程師篇</h5>
+            <span class="badge rounded-pill text-bg-light text-secondary">團隊合作</span>
+            <h5 class="card-title fs-4 lh-base mt-2">【跨部門協作】設計師與工程師篇</h5>
             <p class="card-text">
-              在實際合作的過程中，因為彼此的專業、工作內容不同，在意的地方也就當然不一樣，這邊筆者整理五個常見情境，並提供實務上筆者會用的解決辦法，讓設計師跟工程師在合作時更順暢!
+              整理出實際合作的過程中五個常見情境，並提供實務上會用的解決辦法，讓設計師跟工程師在合作時更順暢!
             </p>
           </div>
         </a>
       </div>
     </div>
 
-    <div class="row">
-      <a class="icon-link" href="https://medium.com/@yijunglin13079">
-        去 Medium 看更多
-        <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
-      </a>
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <a target="_blank" href="https://medium.com/@yijunglin13079" class="btn btn-outline-dark">
+          看更多
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
 
   <!-- footer -->
-  <div class="footer container-fluid bg-dark  py-5 mt-5">
+  <div id="footer" class="footer container-fluid py-4 bg-light">
     <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <p class="display-5 text-uppercase text-secondary">let's work together !</p>
-        <p class="text-white">
+      <div class="col-12 text-center mt-4">
+        <p class="display-6 text-uppercase text-secondary">let's work together !</p>
+        <p class="fs-5 mb-0">
           歡迎隨時找我聊聊
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="bi bi-emoji-sunglasses-fill" viewBox="0 0 16 16">
@@ -202,15 +248,19 @@
         <input id="myInput" type="text" class="email_input" value="yijunglin79013@gmail.com" disabled>
 
         <div class="tooltip_cu">
-          <button type="button" class="btn btn-outline-secondary" onclick="myFunction()" onmouseout="outFunc()" onmouseout="outFunc()" onmouseenter="outFunc()">
-            
+          <button type="button" class="btn btn-sm btn-outline-secondary" onclick="myFunction()" onmouseout="outFunc()"
+            onmouseout="outFunc()" onmouseenter="outFunc()">
+
             <span class="tooltiptext_cu text-white" id="myTooltip"></span>
-            
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-            </svg>
             Copy
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard"
+              viewBox="0 0 16 16">
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+              <path
+                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+            </svg>
+
           </button>
         </div>
       </div>

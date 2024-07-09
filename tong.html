@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="templates/all.css" /> -->
+    <link rel="stylesheet" href="scss/custom/bg.css">
     <link rel="stylesheet" href="scss/all.css" />
-    <!-- <link rel="stylesheet" href="templates/all.css"> -->
+
     <title>Julie Lin</title>
 </head>
 
@@ -553,39 +555,51 @@
     </div>
 
     <!-- 設計成果 #result -->
-    <div id="result" class="bg-body-tertiary">
+    <div id="result" class="">
         <div class="container py-lg-8 py-6">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-12 box">
                     <h5 class="h4 text-tong text-center">專案成果</h5>
                 </div>
 
-                <div class="col-3 mt-5">
+                <div class="col-3 mt-6">
                     <p class="">上架<b>兩百個以上</b>的案例至網站，建構清晰的資訊架構，提供醫療人員完整檢索。</p>
                 </div>
-                <div class="col-9 mt-5">
-
+                <div class="col-9 mt-6">
+                    <video class="object-fit-contain border-0 rounded-3 shadow" width="100%" height="auto" autoplay
+                        controls>
+                        <source src="video/result01.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
 
-                <div class="col-3 mt-5">
+                <div class="col-3 mt-6">
                     <p class="">新增<b>模糊搜尋功能</b>，更快更準確的查詢案例。</p>
                 </div>
-                <div class="col-9 mt-5">
-
+                <div class="col-9 mt-6">
+                    <video class="object-fit-contain border-0 rounded-3 shadow" width="100%" height="auto" autoplay
+                        controls>
+                        <source src="video/result03.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
 
-                <div class="col-3 mt-5">
+                <div class="col-3 mt-6">
                     <p class="">新增<b>站內留言機制</b>，對於案例有疑問或建議可以反饋給管理者，建立雙向互動，讓案例資料即時更新。</p>
                 </div>
-                <div class="col-9 mt-5">
-
+                <div class="col-9 mt-6">
+                    <video class="object-fit-contain border-0 rounded-3 shadow" width="100%" height="auto" autoplay
+                        controls>
+                        <source src="video/result02.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- 團隊合作 #member -->
-    <div id="member" class="">
+    <div id="member" class="bg-body-tertiary">
         <div class="container py-lg-8 py-6">
             <div class="row">
                 <div class="col-12 box">
@@ -612,13 +626,12 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!-- 反思與學習  #learn-->
-    <div id="learn" class="bg-body-tertiary">
+    <div id="learn" class="">
         <div class="container py-lg-8 py-6">
             <div class="row">
                 <div class="col-12 box">
@@ -694,10 +707,36 @@
     </div>
 
     <!-- footer -->
-    <div class="container-fluid bg-dark py-8">
-        <div class="row">
-            <div class="col-12">
+    <div id="footer" class="footer container-fluid py-4 bg-light">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center mt-4">
+                <p class="display-6 text-uppercase text-secondary">let's work together !</p>
+                <p class="fs-5 mb-0">
+                    歡迎隨時找我聊聊
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-emoji-sunglasses-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M2.31 5.243A1 1 0 0 1 3.28 4H6a1 1 0 0 1 1 1v.116A4.2 4.2 0 0 1 8 5c.35 0 .69.04 1 .116V5a1 1 0 0 1 1-1h2.72a1 1 0 0 1 .97 1.243l-.311 1.242A2 2 0 0 1 11.439 8H11a2 2 0 0 1-1.994-1.839A3 3 0 0 0 8 6c-.393 0-.74.064-1.006.161A2 2 0 0 1 5 8h-.438a2 2 0 0 1-1.94-1.515zM4.969 9.75A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .866-.5z" />
+                    </svg>
+                </p>
+                <input id="myInput" type="text" class="email_input" value="yijunglin79013@gmail.com" disabled>
 
+                <div class="tooltip_cu">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="myFunction()"
+                        onmouseout="outFunc()" onmouseout="outFunc()" onmouseenter="outFunc()">
+
+                        <span class="tooltiptext_cu text-white" id="myTooltip"></span>
+                        Copy
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-clipboard" viewBox="0 0 16 16">
+                            <path
+                                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                            <path
+                                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                        </svg>
+
+                    </button>
+                </div>
             </div>
         </div>
     </div>

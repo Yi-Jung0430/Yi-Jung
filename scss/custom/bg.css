@@ -105,34 +105,27 @@
   .one {
     background: #43ece3;
     z-index: 3;
-    animation: 20s one ease infinite;
+    animation: 15s one ease infinite;
   }
   
   .two {
     background: #f6f9fb;
     left: 20vw;
     z-index: 4;
-    animation: 20s two ease infinite;
+    animation: 15s two ease infinite;
   }
   
   .three {
     background: #9966ff;
     left: 40vw;
     z-index: 2;
-    animation: 20s three ease infinite;
+    animation: 15s three ease infinite;
   }
   
   .four {
     background: #2572f6;
     left: 60vw;
-    animation: 20s four ease infinite;
-  }
-  
-  .wrapper {
-    position: fixed;
-    background: linear-gradient(#ffffff, #f5f6f8);
-    width: 100vw;
-    height: 100vh;
+    animation: 15s four ease infinite;
   }
   
 
@@ -147,7 +140,7 @@
   
   #positionwrapper {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
    
   }
