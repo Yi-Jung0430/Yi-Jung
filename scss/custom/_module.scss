@@ -5,7 +5,7 @@
     border-top: 1px solid #4b4b4b;
     width: 4rem;
     margin: 0 1rem;
-    transform: translateY(-.5rem);
+    transform: translateY(-0.5rem);
 }
 
 hr {
@@ -31,10 +31,62 @@ h6 {
 }
 
 a.shadow-sm {
-    transition: all .3s;
+    transition: all 0.3s;
 }
 a.shadow-sm:hover {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     transform: translateY(-10px);
 }
 
+.email_input {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    min-width: 280px;
+    height: 40px;
+}
+
+.footer {
+    .tooltip_cu {
+        position: relative;
+        display: inline-block;
+    }
+
+    .tooltip_cu .tooltiptext_cu {
+        visibility: hidden;
+        width: 140px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -75px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .tooltip_cu .tooltiptext_cu::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+
+    .tooltip_cu:hover .tooltiptext_cu {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .tooltip_cu:hover {
+        visibility: visible;
+        opacity: 1;
+    }
+}

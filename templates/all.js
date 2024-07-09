@@ -1,7 +1,7 @@
 
 /* 導航區 開始 */
 $(window).scroll(function () {
-	if ($(this).scrollTop() > 400 ) {
+	if ($(this).scrollTop() > 400) {
 		$('.nav_box').addClass("show");
 	} else {
 		$('.nav_box').removeClass("show");
@@ -69,3 +69,18 @@ function jump_top() {
 }
 /* 跳至頁端 結束 */
 
+// 複製信箱功能
+function myFunction() {
+	var copyText = document.getElementById("myInput");
+	copyText.select();
+	copyText.setSelectionRange(0, 99999);
+	navigator.clipboard.writeText(copyText.value);
+
+	var tooltip = document.getElementById("myTooltip");
+	tooltip.innerHTML = "已複製";
+}
+
+function outFunc() {
+	var tooltip = document.getElementById("myTooltip");
+	tooltip.innerHTML = "複製";
+}
