@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>林依蓉| UI/UX 產品設計師</title>
-  <meta content="Hi ! 我是林依蓉，一位 UI/UX Designer，擁有 4 年 UI 設計經驗，精通切版技能，擅長產出符合工程邏輯的介面，著迷於用設計靠近使用者並解決需求。" name="description">
+  <meta content="Hi ! 我是林依蓉，UI/UX Designer，擁有 4 年 UI 設計經驗，精通切版技能，擅長產出符合工程邏輯的介面，著迷於用設計靠近使用者並解決需求。" name="description">
+  <meta content="Hi ! 我是林依蓉，UI/UX Designer，擁有 4 年 UI 設計經驗，精通切版技能，擅長產出符合工程邏輯的介面，著迷於用設計靠近使用者並解決需求。" property="og:description">
   <meta content="林依蓉| UI/UX 產品設計師" property="og:title">
-  <meta property="og:image" content="" />
+  <meta property="og:image" content="https://yi-jung0430.github.io/Yi-Jung/image/og.png" />
 
   <!-- <link rel="stylesheet" href="templates/all.css" /> -->
   <link rel="stylesheet" href="scss/custom/bg.css">
@@ -23,7 +24,7 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg sticky-top bg-white">
     <div class="container-fluid container-xl">
-      <a class="navbar-brand " href="home.html">
+      <a class="navbar-brand " href="home.html" title="回到首頁">
         <!-- <img src="image/logo.png" alt="Logo" width="40" class="d-inline-block align-middle" /> -->
         <span class="fs-7 ps-2 d-inline-block" style="line-height: 52px;">Julie Lin</span>
       </a>
@@ -35,23 +36,24 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="home.html#case">精選作品</a>
+            <a class="nav-link" aria-current="page" href="home.html#case" title="內部連結到精選作品">精選作品</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">關於我</a>
+            <a class="nav-link" href="about.html" title="內部連結到關於我的頁面">關於我</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="home.html#footer">聯絡我</a>
+            <a class="nav-link" href="home.html#footer" title="內部連結到關於我的頁面">聯絡我</a>
           </li>
           <li class="nav-item ps-2">
-            <a class="btn btn-dark" href="image/林依蓉_履歷.pdf" role="button" download>下載履歷</a>
+            <a class="btn btn-dark" href="image/林依蓉_履歷.pdf" role="button" title="下載履歷" download >下載履歷</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div id="gradient-bg">
+  <!-- header -->
+  <header id="gradient-bg">
     <div id="positionwrapper" class="container-fluid">
       <div id="blurwrapper">
         <div class="blur one"></div>
@@ -82,10 +84,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </header>
 
   <!-- 精選案例 -->
-  <div class="container" id="case">
+  <main class="container" id="case">
     <div class="row pt-9">
       <div class="col-12 text-center">
         <h3>精選作品</h3>
@@ -164,10 +166,10 @@
         </div>
       </a>
     </div>
-  </div>
+  </main>
 
   <!-- 精選文章 -->
-  <div class="container mb-6">
+  <section class="container mb-6">
     <div class="row mt-9">
       <div class="col-12 text-center">
         <h3>精選文章</h3>
@@ -184,7 +186,7 @@
             <span class="badge rounded-pill text-bg-light text-secondary">課程心得</span>
 
             <h4 class="card-title fs-4 lh-base mt-2">【2023 AAPD 第一屆 UI 實戰營】參加心得</h4>
-            <h5 class="card-text">
+            <h5 class="card-text fs-6">
               為期 40 天， 營期間超過 10 場直播教學、講座和活動。透過課程作業與實際專案輸出的高效學習機制，是我參加過最紮實的 UI 課程!
             </h5>
           </div>
@@ -200,7 +202,7 @@
           <div class="card-body">
             <span class="badge rounded-pill text-bg-light text-secondary">講座心得</span>
             <h4 class="card-title fs-4 lh-base mt-2">【LTUX Taipei | 產品設計師的養成之路】講座心得</h4>
-            <h5 class="card-text">
+            <h5 class="card-text fs-6">
               請到在馬來西亞 Touch ‘n Go 集團產品設計主管、同時也是 Ladies that UX Kuala Lumpur 的會長 Tiffany、產品設計顧問/設計導師 May
               來分享他們的經歷與看法。
             </h5>
@@ -215,7 +217,7 @@
           <div class="card-body">
             <span class="badge rounded-pill text-bg-light text-secondary">團隊合作</span>
             <h4 class="card-title fs-4 lh-base mt-2">【跨部門協作】設計師與工程師篇</h4>
-            <h5 class="card-text">
+            <h5 class="card-text fs-6">
               整理出實際合作的過程中五個常見情境，並提供實務上會用的解決辦法，讓設計師跟工程師在合作時更順暢!
             </h5>
           </div>
@@ -225,7 +227,7 @@
 
     <div class="row mt-4">
       <div class="col-12 text-center">
-        <a target="_blank" href="https://vocus.cc/user/@Yi-Jung" class="btn btn-outline-dark">
+        <a target="_blank" href="https://vocus.cc/user/@Yi-Jung" class="btn btn-outline-dark" title="外部連結到方格子vocus">
           更多文章
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="bi bi-arrow-right-short" viewBox="0 0 16 16">
@@ -235,10 +237,10 @@
         </a>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- footer -->
-  <div id="footer" class="footer container-fluid py-8 bg-light">
+  <footer id="footer" class="footer container-fluid py-8 bg-light">
     <div class="row justify-content-center">
       <div class="col-12 text-center mt-4">
         <p class="display-6 text-uppercase text-secondary">let's work together !</p>
@@ -269,7 +271,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 
 
   <script src="templates/jquery-3.7.1.min.js"></script>
