@@ -18,6 +18,9 @@
 [![Static Badge](https://img.shields.io/badge/Medium-blue?style=flat-square)](https://pages.github.com/){:target"_blank"}  
 [![Static Badge](https://img.shields.io/badge/Vocus方格子-blue?style=flat-square)](https://pages.github.com/){:target"_blank"}  
 
+![Static Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&link=https%3A%2F%2Fshields.io%2Fbadges){:target"_blank"}
+
+
 
 
 
