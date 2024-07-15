@@ -4,7 +4,7 @@
     
 ### 🚀 聯絡我 | Contact me
 
-[![Static Badge](https://img.shields.io/badge/Linkedin-red?style=flat-square)]([linkedin.com/in/依蓉-林-6b2b97215](https://www.linkedin.com/feed/)/)
+[![Static Badge](https://img.shields.io/badge/Linkedin-red?style=flat-square)](https://www.linkedin.com/in/%E4%BE%9D%E8%93%89-%E6%9E%97-6b2b97215/)
 [![Static Badge](https://img.shields.io/badge/Cakeresume-red?style=flat-square)](https://www.cakeresume.com/me/yijunglin79013/)
 [![Static Badge](https://img.shields.io/badge/Behance-red?style=flat-square)](https://www.behance.net/yijunglin79013/) 
 [![Static Badge](https://img.shields.io/badge/Medium-red?style=flat-square)](https://medium.com/@yijunglin13079/)
