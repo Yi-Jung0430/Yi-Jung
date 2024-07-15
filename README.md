@@ -11,13 +11,19 @@
   ## 🚀 聯絡我 | Contact me
 
 
-🔗[Linkedin](http://blog.csdn.net/guodongxiaren)  
-🔗[Cakeresume](http://blog.csdn.net/guodongxiaren)  
-🔗[Behance](http://blog.csdn.net/guodongxiaren)  
-🔗[Medium](http://blog.csdn.net/guodongxiaren)  
-🔗[Vocus 方格子](http://blog.csdn.net/guodongxiaren)
+
+[![Static Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square)](https://pages.github.com/){:target"_blank"}  
+[![Static Badge](https://img.shields.io/badge/Cakeresume-blue?style=flat-square)](https://pages.github.com/){:target"_blank"}  
+[![Static Badge](https://img.shields.io/badge/Behance-blue?style=flat-square)](https://pages.github.com/){:target"_blank"}  
+[![Static Badge](https://img.shields.io/badge/Medium-blue?style=flat-square)](https://pages.github.com/){:target"_blank"}  
+[![Static Badge](https://img.shields.io/badge/Vocus方格子-blue?style=flat-square)](https://pages.github.com/){:target"_blank"}  
+
+
 
 
 ## 🛸 關於本站 | About this website
 
-
+  
+![Static Badge](https://img.shields.io/badge/v5.3.1-red?style=flat-square&label=bootatrap)  
+![Static Badge](https://img.shields.io/badge/v1.11.3-red?style=flat-square&label=bootstrap-icons)  
+![Static Badge](https://img.shields.io/badge/4.0.0-red?style=flat-square&label=badge-maker)
