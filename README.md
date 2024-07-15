@@ -1,6 +1,6 @@
 # 林依蓉 Julie Lin
 
-## :link:[個人網站](https://yi-jung0430.github.io/Yi-Jung/home.html)
+## 🔗[個人網站](https://yi-jung0430.github.io/Yi-Jung/home.html)
     
 ### 🚀 聯絡我 | Contact me
 
