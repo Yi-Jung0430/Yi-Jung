@@ -1,7 +1,8 @@
 
 /* 導航區 開始 */
+$('.nav_box').removeClass("show");
 $(window).scroll(function () {
-	if ($(this).scrollTop() > 400) {
+	if ($(this).scrollTop() > 500) {
 		$('.nav_box').addClass("show");
 	} else {
 		$('.nav_box').removeClass("show");
@@ -41,7 +42,7 @@ var observer_A = new IntersectionObserver(function (entries, observer) {
 }, {
 	//相關設定
 	threshold: 0, //1值:viewport內、0.5值:viewport中間、0值:viewport外。
-	rootMargin: "8% 0px -95% 0px",
+	rootMargin: "5% 0px -85% 0px",
 });
 
 var timeline_trs = document.querySelectorAll('.box');
@@ -54,7 +55,9 @@ timeline_trs.forEach(
 /* active效果導航區 -- 結束 */
 
 /* 跳至頁端 開始 */
+$('.jump_top').removeClass("show");
 $(window).scroll(function () {
+	
 	if ($(this).scrollTop() > 0) {
 		$('.jump_top').addClass("show");
 	} else {
@@ -65,7 +68,7 @@ $(window).scroll(function () {
 function jump_top() {
 	$('html, body').animate({
 		scrollTop: 0
-	}, 300);
+	}, 200);
 }
 /* 跳至頁端 結束 */
 
@@ -77,7 +80,7 @@ function myFunction() {
 	navigator.clipboard.writeText(copyText.value);
 
 	var tooltip = document.getElementById("myTooltip");
-	tooltip.innerHTML = "已複製";
+	tooltip.innerHTML = "已複製信箱";
 }
 
 function outFunc() {
