@@ -24293,9 +24293,8 @@ a.shadow-sm:hover,
 
 .cu_hero {
   z-index: 1010;
-  min-height: 85vh;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .test-bg {
