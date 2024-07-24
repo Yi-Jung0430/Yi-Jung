@@ -30,11 +30,13 @@ h6 {
     color: #4b4b4b;
 }
 
-a.shadow-sm {
+a.shadow-sm,
+.card__hover {
     transition: all 0.3s;
 }
-a.shadow-sm:hover {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+a.shadow-sm:hover,
+.card__hover:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .05);
     transform: translateY(-10px);
 }
 
@@ -90,3 +92,5 @@ a.shadow-sm:hover {
         opacity: 1;
     }
 }
+
+
