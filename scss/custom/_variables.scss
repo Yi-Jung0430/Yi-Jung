@@ -51,6 +51,7 @@ $vex:     #7AA5C7;
 $vex2:    #C5A2BF;
 $tong:     #0069A4;
 $tong2:     #0E2661;
+$portaly:     #8B6CD9;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -74,6 +75,7 @@ $colors: (
   "vex2":       $vex2,
   "tong":        $tong,
   "tong2":       $tong2,
+  "portaly":       $portaly,
 ) !default;
 // scss-docs-end colors-map
 
@@ -351,6 +353,7 @@ $vex:           $vex;
 $vex2:          $vex2;
 $tong:           $tong;
 $tong2:          $tong2;
+$portaly:          $portaly;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -368,6 +371,7 @@ $theme-colors: (
   "vex2":       $vex2,
   "tong":        $tong,
   "tong2":       $tong2,
+  "portaly":       $portaly,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -382,6 +386,7 @@ $light-text-emphasis:     $gray-700 !default;
 $dark-text-emphasis:      $gray-700 !default;
 $journin-text-emphasis:      $journin;
 $vex-text-emphasis:      $vex;
+$portaly-text-emphasis:      $portaly;
 // scss-docs-end theme-text-variables
 
 // scss-docs-start theme-bg-subtle-variables
