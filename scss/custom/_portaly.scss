@@ -1,3 +1,11 @@
 .bg-portaly-light {
-    background-color: #FBF9FF;
+    background-color: #fbf9ff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: #f9f7ff; 
+}
+
+.border-portaly2 {
+    border-color: #8B6CD9;
 }
