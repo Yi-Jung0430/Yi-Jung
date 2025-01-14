@@ -22913,7 +22913,34 @@ a.shadow-sm:hover,
 }
 
 .border-portaly2 {
-  border-color: #8B6CD9;
+  border-color: #8b6cd9;
+}
+
+.bdr {
+  border-radius: 0.375rem;
+  overflow: hidden;
+  border: #8b6cd9 solid 1px;
+}
+
+.portaly-user-table th {
+  background-color: #f6f2ff !important;
+  padding: 12px;
+}
+
+.portaly-user-table td {
+  padding: 12px;
+}
+
+.portaly-user-table tr:last-child th {
+  border-style: none;
+}
+
+.portaly-user-table tr:last-child td {
+  border-style: none;
+}
+
+.table.portaly-user-table > :not(caption) > * > * {
+  background-color: transparent;
 }
 
 .nav_box.show {
