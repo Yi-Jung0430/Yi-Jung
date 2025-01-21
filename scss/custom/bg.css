@@ -95,7 +95,7 @@
   
   .blur {
     position: absolute;
-    bottom: 170px;
+    bottom: 1200px;
     width: 60vw;
     height: 340px;
     border-radius: 50% 50%;
@@ -154,6 +154,6 @@
     background-image: url(https://cortex.persona.co/t/original/i/d249e632dd96ecccb9ec33cf92dff16b6d76c8b2f46542c3b01b07c3dc1034cd/image-46-copy.png);
     background-size: 100px;
     opacity: 1;
-    z-index: 9;
+    /*z-index: 9;*/
   }
   
