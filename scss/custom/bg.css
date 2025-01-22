@@ -95,7 +95,7 @@
   
   .blur {
     position: absolute;
-    bottom: 1200px;
+    bottom: 0px;
     width: 60vw;
     height: 340px;
     border-radius: 50% 50%;

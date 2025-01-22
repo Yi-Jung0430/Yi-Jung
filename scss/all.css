@@ -23040,7 +23040,7 @@ a.shadow-sm:hover,
 
 .jump_top {
   display: none;
-  border: 2px solid rgb(223, 223, 223);
+  border: 1.5px solid rgb(223, 223, 223);
   border-radius: 500px;
   transition: opacity 0.5s;
   position: fixed;
