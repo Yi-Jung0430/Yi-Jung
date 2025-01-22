@@ -22708,7 +22708,7 @@ textarea.form-control-lg {
 
 p {
   line-height: 2;
-  color: #4b4b4b;
+  color: #333333;
 }
 
 .fs-7 {
@@ -22725,7 +22725,7 @@ p {
 
 .card-title,
 .card-body {
-  color: #475467;
+  color: #333333;
 }
 
 .playfair-display {
@@ -22765,7 +22765,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  color: #4b4b4b;
+  color: #333333;
 }
 
 .h1,
@@ -22774,7 +22774,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  color: #4b4b4b;
+  color: #333333;
 }
 
 a.shadow-sm,
