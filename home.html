@@ -25,6 +25,9 @@
   <!-- animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -114,7 +117,7 @@
 
           </h2> -->
           <img src="image/home/hero_small.svg" class="img-fluid rounded-start w-25" alt="個人照" style="max-width: 8rem;">
-          <p class="playfair-display display-6 lh-base mt-4">
+          <p class="playfair-display display-6 lh-base mt-4 animate__animated animate__pulse animate__infinite	infinite">
             Hello,I'm Julie.</p>
           <p class="h4 lh-base">
             以好奇心挖掘核心需求<br>
@@ -152,7 +155,7 @@
       </div>
       <div class="row mt-6">
 
-        <div class="col-12">
+        <div class="col-12 " data-aos="fade-up">
           <a href="portaly.html" class="text-decoration-none" title="獨旅友善的訂房 App 案例連結">
             <div class="row g-0">
               <div class="col-12">
@@ -179,7 +182,7 @@
           </a>
         </div>
 
-        <div class="col-12  mt-4">
+        <div class="col-12  mt-4" data-aos="fade-up">
           <a href="vex.html" class="text-decoration-none" title="VEX 賽事管理系統案例連結">
             <div class="row g-0">
               <div class="col-12">
@@ -206,7 +209,7 @@
           </a>
         </div>
 
-        <div class="col-12 mt-4">
+        <div class="col-12 mt-4 " data-aos="fade-up">
           <a href="tong.html" class="text-decoration-none" title="童綜合醫院醫學檢索庫案例連結">
             <div class="row g-0">
               <div class="col-12">
@@ -233,7 +236,7 @@
           </a>
         </div>
 
-        <div class="col-12 mt-4">
+        <div class="col-12 mt-4" data-aos="fade-up">
           <a href="journin.html" class="text-decoration-none" title="獨旅友善的訂房 App 案例連結">
             <div class="row g-0">
               <div class="col-12">
@@ -271,7 +274,7 @@
       </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2" data-aos="fade-up">
       <div class="col">
         <a target="_blank"
           href="https://medium.com/as-a-product-designer/2023-aapd-%E7%AC%AC%E4%B8%80%E5%B1%86-ui-%E5%AF%A6%E6%88%B0%E7%87%9F-%E5%8F%83%E5%8A%A0%E5%BF%83%E5%BE%97-a0f9a215d273"
@@ -499,23 +502,23 @@
           </p>
         </div>
 
-        <div class="col-6">
+        <div class="col-6" data-aos="fade-up">
           <img src="image/about/group01.svg" class="w-100" alt="活動照片">
         </div>
-        <div class="col-3">
+        <div class="col-3" data-aos="fade-up">
           <img src="image/about/group02.svg" class="w-100" alt="活動照片">
         </div>
-        <div class="col-3">
+        <div class="col-3" data-aos="fade-up">
           <img src="image/about/group03.svg" class="w-100" alt="活動照片">
         </div>
 
-        <div class="col-6 mt-4">
+        <div class="col-6 mt-4" data-aos="fade-up">
           <img src="image/about/group04.svg" class="w-100" alt="活動照片">
         </div>
-        <div class="col-3 mt-4">
+        <div class="col-3 mt-4" data-aos="fade-up">
           <img src="image/about/group05.svg" class="w-100" alt="活動照片">
         </div>
-        <div class="col-3 mt-4">
+        <div class="col-3 mt-4" data-aos="fade-up">
           <img src="image/about/group06.svg" class="w-100" alt="活動照片">
         </div>
       </div>
@@ -576,9 +579,16 @@
 
   <button class="jump_top show" onclick="jump_top()"></button>
 
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <script type="text/javascript" src="templates/jquery-3.7.1.min.js"></script>
   <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="templates/all.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
