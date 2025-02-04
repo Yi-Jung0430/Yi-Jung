@@ -132,10 +132,9 @@
   
   #blurwrapper {
     position:absolute;
-    bottom:0;
+    top: 15%;
     filter: blur(120px);
     opacity:1;
-    
   }
   
   #positionwrapper {
