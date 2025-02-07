@@ -5,12 +5,10 @@ $('.nav_box').removeClass("show");
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 500) {
 		$('.nav_box').addClass("show");
-		$('nav.navbar').removeClass("bg-transparent");
-		$('nav.navbar').addClass("bg-white");
+		
 	} else {
 		$('.nav_box').removeClass("show");
-		$('nav.navbar').addClass("bg-transparent");
-		$('nav.navbar').removeClass("bg-white");
+		
 	}
 });
 
