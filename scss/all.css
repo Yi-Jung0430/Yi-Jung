@@ -22735,6 +22735,13 @@ p {
   font-style: normal;
 }
 
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar-brand,
 .nav-link {
   color: #4b4b4b;
@@ -22951,6 +22958,38 @@ a.shadow-sm:hover,
 
 .table.portaly-user-table > :not(caption) > * > * {
   background-color: transparent;
+}
+
+.btn-outline-portaly:hover {
+  background-color: #8b6cd9;
+  color: #fff;
+}
+
+.framer-3un58d {
+  background-color: var(--token-7656416d-aec7-4273-97a1-72aeaaf04dc9, #f8f9fa);
+  bottom: 0;
+  flex: none;
+  height: 41px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  width: 40px;
+}
+
+.framer-13tfko2 {
+  background-color: var(--token-77fbd437-631b-40d5-9003-0328486ce1d7, #d5d7d9);
+  bottom: 13px;
+  flex: none;
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  right: -3px;
+  width: 79px;
+  z-index: 1;
+}
+
+.portaly ul li {
+  list-style-image: url("../../image/portaly/dot.svg");
 }
 
 .nav_box.show {
