@@ -22881,6 +22881,10 @@ a.shadow-sm:hover,
   font-size: 12px;
 }
 
+.bg-vex-light {
+  background-color: #e8f2f9;
+}
+
 .cu_hero {
   z-index: 1010;
   padding-top: 120px;
@@ -22927,7 +22931,7 @@ a.shadow-sm:hover,
 }
 
 .bg-portaly-light {
-  background-color: #f5f1ff;
+  background-color: #ebf6ff;
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) > * {
