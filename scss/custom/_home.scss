@@ -11,4 +11,11 @@
     color: #4b4b4b;
 }
 
+.contact_item {
+    transition: all .3s;
+}
 
+.contact_item:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
