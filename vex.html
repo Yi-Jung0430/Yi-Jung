@@ -58,7 +58,7 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <!-- navbar -->
-  <!-- <nav class="navbar navbar-expand-lg sticky-top bg-white">
+  <nav class="navbar navbar-expand-lg sticky-top bg-white">
     <div class="container-fluid container-xl">
       <a class="navbar-brand playfair-display" href="home.html" title="回到首頁">
         <h1 class="fs-5">Julie Lin</h1>
@@ -86,7 +86,7 @@
         </ul>
       </div>
     </div>
-  </nav> -->
+  </nav>
 
   <!-- title -->
   <div class="container">
@@ -99,9 +99,10 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row mt-5">
+  <div class="container" id="background">
+    <div class="row mt-5 box">
       <div class="col-md-5 col-12">
+        <h5 class="opacity-0" style="height: 0;">專案背景</h5>
         <p class="mb-0 fs-7 text-body-secondary">團隊成員</p>
         <p class="text-black">
           專案經理 -1 位<br>
@@ -145,7 +146,7 @@
         </p>
         <p><b>2018-2024 賽隊成長率：</b></p>
       </div>
-      <div class="col-9 bg-white rounded-4 p-4 text-center">
+      <div class="col-9 bg-white rounded-4 py-4 ps-4 text-center">
         <img src="image/vex/heghlight.svg" alt="hightlight" class="w-100">
       </div>
       <div class="col-9">
@@ -167,30 +168,71 @@
     </div>
   </section>
 
-  <section class="container">
+  <section class="container" id="demand">
     <div class="row">
       <div class="col-12">
         <hr class="my-6">
       </div>
       <div class="col-9">
+        <h5 class="opacity-0" style="height: 0;">需求訪談</h5>
         <p class="font-weight-bold mb-0 text-vex">了解使用者</p>
         <h3 class="font-weight-bold">透過需求訪談了解使用經驗，以需求矩陣梳理關鍵需求與痛點</h3>
         <p class="my-3">
           與主辦方的窗口，同時也是系統的主要使用者進行實體訪談，探索這兩年實際的使用經驗，瞭解改版需求。
-          而我在訪談前先定義好訪談目的，以確保真正了解使用者需求：
+          <br>我們想透過訪談了解以下議題：
+        </p>
+        <ul class="list-unstyled fw-bold">
+          <li>
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#1368AA" class="bi bi-check2-circle"
+                viewBox="0 0 16 16">
+                <path
+                  d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                <path
+                  d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+              </svg>
+              有哪些尚未被滿足的需求？
+            </p>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#1368AA" class="bi bi-check2-circle"
+              viewBox="0 0 16 16">
+              <path
+                d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+              <path
+                d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+            </svg>
+            現有的使用流程是否順暢？
+            </p>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#1368AA" class="bi bi-check2-circle"
+              viewBox="0 0 16 16">
+              <path
+                d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+              <path
+                d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+            </svg>
+            現有的功能是否與使用場景相符？
+          </li>
+        </ul>
+      </div>
+      <div class="col-9">
+        <p class="my-3">
+          並針對每一個需求，再具體了解以下細節，確保真正了解核心需求與影響範圍：
         </p>
       </div>
       <div class="col"></div>
       <div class="col-3">
         <div class="card border-0 rounded">
-          <div class="card-body text-center pt-5 text-vex2">
+          <div class="card-body text-center pt-5 text-vex">
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
               class="bi bi-person-raised-hand" viewBox="0 0 16 16">
               <path
                 d="M6 6.207v9.043a.75.75 0 0 0 1.5 0V10.5a.5.5 0 0 1 1 0v4.75a.75.75 0 0 0 1.5 0v-8.5a.25.25 0 1 1 .5 0v2.5a.75.75 0 0 0 1.5 0V6.5a3 3 0 0 0-3-3H6.236a1 1 0 0 1-.447-.106l-.33-.165A.83.83 0 0 1 5 2.488V.75a.75.75 0 0 0-1.5 0v2.083c0 .715.404 1.37 1.044 1.689L5.5 5c.32.32.5.754.5 1.207" />
               <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
             </svg>
-            <h5 class="card-title my-4 text-vex2 fw-bold">
+            <h5 class="card-title my-4 text-vex fw-bold">
               了解問題發生的情境
             </h5>
           </div>
@@ -198,14 +240,14 @@
       </div>
       <div class="col-3">
         <div class="card border-0 rounded">
-          <div class="card-body text-center pt-5 text-vex2">
+          <div class="card-body text-center pt-5 text-vex">
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
               class="bi bi-person-bounding-box" viewBox="0 0 16 16">
               <path
                 d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
             </svg>
-            <h5 class="card-title my-4 text-vex2 fw-bold">
+            <h5 class="card-title my-4 text-vex fw-bold">
               牽涉到哪些利害關係人
             </h5>
           </div>
@@ -213,7 +255,7 @@
       </div>
       <div class="col-3">
         <div class="card border-0 rounded">
-          <div class="card-body text-center pt-5 text-vex2">
+          <div class="card-body text-center pt-5 text-vex">
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
               class="bi bi-question-square" viewBox="0 0 16 16">
               <path
@@ -221,7 +263,7 @@
               <path
                 d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
             </svg>
-            <h5 class="card-title my-4 text-vex2 fw-bold">
+            <h5 class="card-title my-4 text-vex fw-bold">
               定義問題
             </h5>
           </div>
@@ -229,13 +271,13 @@
       </div>
       <div class="col-3">
         <div class="card border-0 rounded">
-          <div class="card-body text-center pt-5 text-vex2">
+          <div class="card-body text-center pt-5 text-vex">
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-crosshair"
               viewBox="0 0 16 16">
               <path
                 d="M8.5.5a.5.5 0 0 0-1 0v.518A7 7 0 0 0 1.018 7.5H.5a.5.5 0 0 0 0 1h.518A7 7 0 0 0 7.5 14.982v.518a.5.5 0 0 0 1 0v-.518A7 7 0 0 0 14.982 8.5h.518a.5.5 0 0 0 0-1h-.518A7 7 0 0 0 8.5 1.018zm-6.48 7A6 6 0 0 1 7.5 2.02v.48a.5.5 0 0 0 1 0v-.48a6 6 0 0 1 5.48 5.48h-.48a.5.5 0 0 0 0 1h.48a6 6 0 0 1-5.48 5.48v-.48a.5.5 0 0 0-1 0v.48A6 6 0 0 1 2.02 8.5h.48a.5.5 0 0 0 0-1zM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
             </svg>
-            <h5 class="card-title my-4 text-vex2 fw-bold">
+            <h5 class="card-title my-4 text-vex fw-bold">
               衡量問題的優先級
             </h5>
           </div>
@@ -254,18 +296,84 @@
         <p class="">
           面對有限的開發時間，透過需求矩陣協助團隊定義開發的優先順序：
         </p>
+        <p class="my-3">
+          <b>有效性：</b>如果沒有處理好，會沒辦法達成目標 。<br>
+          <b>效率：</b>如果沒有處理好，達到目標的過程會很麻煩。<br>
+          <b>滿意度：</b>如果沒有達成，有部分的人會不開心，但不影響效率或⽬標達成。
+        </p>
       </div>
-      <div class="col-12">
+      <div class="col-5 mt-3">
         <img src="image/vex/membership02.svg" alt="journalMap" class="w-100">
       </div>
-      <div class="col-12 mx-auto mt-6">
-        <div class="card mb-3 border-vex bg-transparent">
-          <div class="card-body text-center py-4">
-            <p class="h5 card-title h4 text-vex2" style="font-weight: bold;text-align: center;"><i>我們發現</i>
+      <div class="col-1 h-100 mt-3">
+        <img src="image/vex/需求矩陣箭頭.svg" alt="需求矩陣箭頭" class="w-100">
+      </div>
+      <div class="col-6 border border-vex mt-3 rounded overflow-y-auto pt-2 px-2" style="height: 400px">
+        <img src="image/vex/需求矩陣.png" alt="" class="w-100">
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="question">
+    <div class="row box">
+      <h5 class="opacity-0" style="height: 0;">定義問題</h5>
+      <div class="col-12">
+        <hr class="my-6">
+      </div>
+      <div class="col-9">
+        <p class="font-weight-bold mb-0 text-vex">主要痛點</p>
+        <h3 class="font-weight-bold">從痛點觀察到賽事特性，了解使用者最在乎的是資料正確性與參賽資格的彈性
+        </h3>
+        <p class="my-3">
+          透過需求矩陣整理出「有效性最高」與「影響範圍最廣」的痛點，被視為此專案優先解決的三大需求：
+        </p>
+        <ul class="list-unstyled fw-bold">
+          <li>
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#1368AA" class="bi bi-emoji-frown"
+                viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                  d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.5 3.5 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.5 4.5 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5" />
+              </svg>
+              即使報名截止，我還是希望可以開放給某些忘記報名的賽隊報名。
             </p>
-            <p class="h4">
-              每年的 VEX 賽季是由一系列賽事所組成，<br>
-              且積分達標的隊伍會代表臺灣到美國參加決賽，<br>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#1368AA" class="bi bi-emoji-frown"
+              viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+              <path
+                d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.5 3.5 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.5 4.5 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5" />
+            </svg>
+            我希望不論是審核通過還是賽事結束，都可以修改參賽者資料。
+            </p>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#1368AA" class="bi bi-emoji-frown"
+              viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+              <path
+                d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.5 3.5 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.5 4.5 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5" />
+            </svg>
+            我希望再退回賽隊報名資料時，可以決定哪些資料不要再被修改。
+          </li>
+        </ul>
+      </div>
+      <div class="col-9 mt-3">
+        <div class="card mb-3 bg-white border-0 shadow-sm roubded">
+          <div class="card-body py-4 px-4">
+            <p class="card-title text-vex2 fw-bold">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-search me-1" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg>
+              關鍵洞察
+            </p>
+            <p class="h5">
+              每年的 VEX 賽季是由一系列賽事所組成，
+              且積分達標的隊伍會代表臺灣到美國參加決賽，
               因此<strong>資料的正確性</strong>以及<strong>最大化保留參賽資格</strong>是需求方最重視的。
             </p>
           </div>
@@ -274,29 +382,29 @@
     </div>
   </section>
 
-  <section class="container">
-    <div class="row pb-lg-8 pb-6">
+  <section class="container" id="range">
+    <div class="row pb-lg-8 pb-6 box">
+      <h5 class="opacity-0" style="height: 0;">專案範圍</h5>
+
       <div class="col-12">
         <hr class="my-6">
       </div>
       <div class="col-9">
         <p class="font-weight-bold mb-0 text-vex">確立專案範圍</p>
-        <h3 class="font-weight-bold"></h3>
-        <p class="mt-3">
-        </p>
+        <h3 class="font-weight-bold">
+          將使用者的需求歸類，並提出修改方法，訂定此專案的主要任務
+        </h3>
       </div>
-      <div class="col-12 p-5 rounded bg-white">
-        <img src="image/vex/range.svg" class="w-100 mt-5" alt="專案範圍">
+      <div class="col-12 p-1 pb-5 rounded bg-white mt-3">
+        <img src="image/vex/range.svg" class="w-100 pt-4" alt="專案範圍">
       </div>
       <div class="col-12 mx-auto mt-6">
-        <div class="card mb-3 border-vex bg-transparent">
+        <div class="card mb-3 bg-white border-0 shadow-sm roubded">
           <div class="card-body text-center py-4">
-            <p class="h5 card-title h4 text-vex2" style="font-weight: bold;text-align: center;"><i>設計挑戰</i>
+            <p class="h5 card-title h4 text-vex" style="font-weight: bold;text-align: center;"><i>設計挑戰</i>
             </p>
             <p class="h4">
-              每年的 VEX 賽季是由一系列賽事所組成，<br>
-              且積分達標的隊伍會代表臺灣到美國參加決賽，<br>
-              因此<strong>資料的正確性</strong>以及<strong>最大化保留參賽資格</strong>是需求方最重視的。
+              如何在各階段保留報名資格與資料修改的彈性，<br>同時維持系統資料與操作流程的穩定？
             </p>
           </div>
         </div>
@@ -304,28 +412,40 @@
     </div>
   </section>
 
+  <section class="" style="background-color: #bfd7e9;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 py-7">
+          <img src="image/vex/流程.svg" class="w-100" alt="專案範圍">
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <!-- 專案成果 #result -->
   <section id="result" class="bg-white">
     <div class="container py-lg-8 py-6">
       <div class="row">
-        <div class="col-12 box">
-          <h5 class="h4 text-vex text-center">專案成果</h5>
+        <div class="col-12 text-center">
+          <p class="fw-semibold text-secondary text-bg-light text-center py-1 px-4 d-inline-block rounded-pill">專案成果</p>
         </div>
       </div>
       <div class="row mt-5 justify-content-between">
         <div class="col-md-2 col-12 sticky-top">
-          <p class="mb-0 border-start border-vex2 ps-2">
-            <small class="text-dark fw-bold">任務 1</small>
+          <p class="mb-0 border-start border-vex border-2 ps-2 text-vex">
+            <b>任務 1</b>
             <br>審核流程的優化
           </p>
         </div>
         <div class="col-md-9 col-12">
           <!-- 設計決策1 -->
           <div class="pb-5 mt-5 mt-md-0">
-            <p><small class="text-vex2 fw-bold">設計決策 1</small></p>
-            <p class="h5">前台會員註冊改成信箱自動認證</p>
+            <p class="font-weight-bold mb-0 text-vex">設計決策 1</p>
+            <h3 class="font-weight-bold">
+              前台會員註冊改成信箱自動認證，報名流程不中斷
+            </h3>
+
             <p>
               前台會員的註冊動機是為了要「報名賽事」，舊版的人工審核會讓報名流程中斷。而管理者在乎的是「信箱正確」即可。因此改成開通信箱認證後即審核通過。<strong>讓前台會員可以一次完成註冊與報名，減去約
                 24 小時的等候時間。</strong>
@@ -336,8 +456,11 @@
 
           <div class="mt-5 pb-5">
             <hr>
-            <p><small class="text-vex2 fw-bold">設計決策 2</small></p>
-            <p class="h5">鎖定正確隊員資料後，再退給報名者修改</p>
+            <p class="font-weight-bold mb-0 text-vex">設計決策 2</p>
+            <h3 class="font-weight-bold">
+              鎖定正確隊員資料後再退回，避免重複審核
+            </h3>
+
             <p>
               鎖定的資料不能再編輯，解決管理者一再審核重複資料的痛點，也讓報名者更快速分辨正確與待修改的欄位。
             </p>
@@ -347,24 +470,22 @@
           <!-- 設計決策3 -->
           <div class="mt-5">
             <hr>
-            <p><small class="text-vex2 fw-bold">設計決策 3</small></p>
-            <p class="h5">優化搜尋功能，更精準更快的取得資料</p>
+            <p class="font-weight-bold mb-0 text-vex">設計決策 3</p>
+            <h3 class="font-weight-bold">
+              優化搜尋功能，更精準更快的取得資料
+            </h3>
             <p>
-              實際了解使用情境與行為模式，提供符合的欄位與排序。</strong>
+              面對龐大報名資料，搜尋功能成為關鍵功能。在實際了解使用情境與行為模式後，提出功能優化：
+
             </p>
-            <p class="">
-              <span class="list-number2">1</span>
-              <span>調整欄位順序，把必填的欄位放在最上面</span>
-            </p>
-            <p class="">
-              <span class="list-number2">2</span>
-              <span>必填欄位給予預設值，減少使用者操作錯誤的機率</span>
-            </p>
-            <p class="">
-              <span class="list-number2">3</span>
-              <span>關鍵字搜尋欄位更清楚的定義查找範圍</span>
-            </p>
-            <img src="image/vex/result03.svg" class="w-100 mt-3" alt="專案成果">
+            <ol>
+              <li>調整欄位順序，把必填的欄位放在最上面</li>
+              <li>必填欄位給予最常使用的預設值，減少使用者操作錯誤的機率</li>
+              <li>給予更清晰的過濾條件，精確找尋資料</li>
+            </ol>
+
+            <img src="image/vex/result031.png" class="w-100 mt-3 rounded-3" alt="專案成果">
+
           </div>
         </div>
       </div>
@@ -374,49 +495,61 @@
   <!-- 專案成果 02 -->
   <section id="result" class="bg-body-tertiary">
     <div class="container py-lg-8 py-6">
-      <div class="row mt-5 justify-content-between">
+      <div class="row justify-content-between">
         <div class="col-md-2 col-12 sticky-top">
-          <p class="mb-0 border-start border-vex2 ps-2">
-            <small class="text-dark fw-bold">任務 2</small>
+          <p class="mb-0 border-start border-vex border-2 ps-2 text-vex">
+            <b>任務 2</b>
             <br>在任何階段保留資料修改的彈性
           </p>
         </div>
+
         <div class="col-md-9 col-12">
           <!-- 設計決策1 -->
-          <div class="pb-5 mt-5 mt-md-0">
-            <p><small class="text-vex2 fw-bold">設計決策</small></p>
-            <p class="h5">情境 : 報名未截止</p>
-            <p>
-              修改審核結果，退回資料給報名者重新修正。
-            </p>
-            <img src="image/vex/result04.svg" class="w-100 mt-1" alt="專案成果">
-
-            <p class="h5 mt-5">情境 : 報名已截止</p>
-            <p>
-              為了避免流程混亂與其他報名者誤報，我們排除強制退回以及延長報名時間的選項，<strong>而是由管理者從後台進行修改。</strong>
-            </p>
-            <img src="image/vex/result05.svg" class="w-100 mt-1" alt="專案成果">
+          <div class="">
+            <p class="font-weight-bold mb-0 text-vex">設計決策</p>
+            <h3 class="font-weight-bold">
+              管理者可依據不同情境進行資料修改
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-6 mt-2">
+              <p class="mb-0">
+                報名未截止：更改審核結果，退回資料給報名者重新修正。
+              </p>
+              <img src="image/vex/result041.svg" class="w-100" alt="專案成果">
+            </div>
+            <div class="col-6 mt-2">
+              <p class="mb-0">
+                報名已截止：避免流程混亂與其他報名者誤報，由管理者從後台進行修改。
+              </p>
+              <img src="image/vex/result051.svg" class="w-100" alt="專案成果">
+            </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
   </section>
 
   <!-- 專案成果 03 -->
-  <section id="result" class="">
+  <section id="result" class="bg-white">
     <div class="container py-lg-8 py-6">
-      <div class="row mt-5 justify-content-between">
+      <div class="row justify-content-between">
         <div class="col-md-2 col-12 sticky-top">
-          <p class="mb-0 border-start border-vex2 ps-2">
-            <small class="text-dark fw-bold">任務 3</small>
+          <p class="mb-0 border-start border-vex border-2 ps-2 text-vex">
+            <b>任務 3</b>
             <br>系統生成參賽證書與獎狀
           </p>
+
         </div>
         <div class="col-md-9 col-12">
           <!-- 設計決策1 -->
-          <div class="pb-5 mt-5 mt-md-0">
-            <p><small class="text-vex2 fw-bold">設計決策</small></p>
-            <p class="h5">與工程師討論可行性後，引入 makepdf.js 套件，管理者可設定內容與字級等，最後一鍵生成參賽證書與獎狀。</p>
+          <div class="pb-5 mt-md-0">
+            <p class="font-weight-bold mb-0 text-vex">設計決策</p>
+            <h3 class="font-weight-bold">
+              使用 makepdf.js 套件，管理者可設定內容與字級等，最後一鍵生成參賽證書與獎狀。
+            </h3>
+
             <p>
               同時我們考量到<strong>極限狀態</strong>，測試在最多字數、中英混雜的情境下不會跑版。
             </p>
@@ -431,196 +564,173 @@
     </div>
   </section>
 
-  <!-- 設計品管 #DQA -->
-  <section id="DQA" class="bg-body-tertiary">
-    <div class="container py-lg-8 py-6">
-      <div class="row justify-content-center">
-        <div class="col-10 box">
-          <h5 class="h4 text-vex text-center">設計品管</h5>
-          <p class="mt-5">協助專案經理進行設計品管，包含兩個面向 :
-          <ol>
-            <li>確認工程師開發完的系統介面與設計稿一致</li>
-            <li>將企畫書上改版的項目用 Excel 列表呈現，逐筆確認功能與進度追蹤</li>
-          </ol>
+  <section class="container" id="member">
+    <div class="row py-lg-8 py-6 align-items-stretch box">
+      <h5 class="opacity-0" style="height: 0;">團隊影響力</h5>
+
+      <div class="col-9">
+        <p class="font-weight-bold mb-0 text-vex">團隊影響力</p>
+        <h3 class="font-weight-bold">
+          運用視覺化能力與團隊夥伴溝通，在迭代流程發揮設計影響力
+        </h3>
+      </div>
+    
+      <div class="col-4">
+        <div class=" bg-white p-4 rounded-4 mt-3 shadow-sm h-100">
+          <div class="my-3 text-vex2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-layout-text-window-reverse " viewBox="0 0 16 16">
+              <path d="M13 6.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5m0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5m-.5 2.5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1z"/>
+              <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM2 1a1 1 0 0 0-1 1v1h14V2a1 1 0 0 0-1-1zM1 4v10a1 1 0 0 0 1 1h2V4zm4 0v11h9a1 1 0 0 0 1-1V4z"/>
+            </svg>
+          </div>
+          <p class="fw-bold">
+            靈活運用設計工具與方法來解決問題
           </p>
-          <div class="text-center mt-4">
-            <img src="image/vex/DQA.svg" class="w-100" alt="設計品管">
+          <p>
+            此專案花較多時間在用戶需求與技術可行性間達成共識，我直接在白板上繪製流程與 Wireframe，打破公司慣例，但有效改善溝通並縮短開發時間。
+          </p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class=" bg-white p-4 rounded-4 mt-3 shadow-sm h-100">
+          <div class="my-3 text-vex2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list-check" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"/>
+            </svg>
           </div>
+          <p class="fw-bold">
+            協助專案經理進行設計品管
+          </p>
+          <p>
+            主動參與設計品管，確認工程師開發完的系統介面與設計稿一致。
+          </p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class=" bg-white p-4 rounded-4 mt-3 shadow-sm h-100">
+          <div class="my-3 text-vex2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-circle-square" viewBox="0 0 16 16">
+              <path d="M0 6a6 6 0 1 1 12 0A6 6 0 0 1 0 6"/>
+              <path d="M12.93 5h1.57a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1.57a7 7 0 0 1-1-.22v1.79A1.5 1.5 0 0 0 5.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 4h-1.79q.145.486.22 1"/>
+            </svg>
+          </div>
+          <p class="fw-bold">
+            採用設計系統
+          </p>
+          <p>
+            與合作的設計師共同開發設計系統，達成前後台風格一致的介面。
+          </p>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- 團隊合作 #member -->
-  <section id="member" class="">
-    <div class="container py-lg-8 py-6">
-      <div class="row justify-content-center">
-        <div class="col-10 box mb-5">
-          <h5 class="h4 text-vex text-center mb-5">團隊合作</h5>
-          <strong>將客戶需求化成工程師可理解的語言或畫面</strong>
-          <p>在需求訪談會議上，我繪製 Wireframe 快速的將需求文字轉成圖面，來更精準地在會議上與需求方確認功能與流程的改版。也透過 Wireframe 跟工程師確認技術可行性。同時，另一位合作同事
-            Cruis（UI Designer）是一位聾啞人士，也藉此達成更順暢的溝通。
-          <div class="text-center">
-            <img src="image/vex/membership01.svg" class="w-100 mt-3" alt="wireframe">
-          </div>
-        </div>
-
-        <div class="col-10 mt-3 mb-5">
-          <hr>
-          <strong>透過需求矩陣協助團隊定義優先順序</strong>
-          <p>在需求訪談的環節，我透過需求矩陣協助大家定義問題的難度與嚴重程度，並將需求排序，來更好的與需求方達成共識 : 在時間內完成「高優先」的功能開發。</p>
-          <div class="text-center">
-            <img src="image/vex/membership02.svg" class="w-100 mt-3" alt="wireframe">
-          </div>
-
-        </div>
-
-        <div class="col-10 mt-3">
-          <hr>
-          <strong>採用設計系統</strong>
-          <p>使用原子設計的概念，沿用公司既有的設計系統與後台架構，更順利的與另一位 UI Designer 協作，他主要負責前台介面，我負責後台介面。同時減少切版的時間。</p>
-          <div class="text-center">
-            <img src="image/vex/cpmponents.svg" class="w-100 mt-3" alt="wireframe">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 反思與學習  #learn-->
-  <section id="learn" class="bg-body-tertiary">
-    <div class="container py-lg-8 py-6">
-      <div class="row justify-content-center">
-        <div class="col-10 box">
-          <h5 class="h4 text-vex text-center">反思與學習</h5>
-          <ol class="mt-5">
-            <li>
-              <p><strong>撕掉設計師的標籤，靈活運用設計工具與方法來解決問題</strong></p>
-              <p>
-                在這個專案中花了相對比較多的時間在討論使用者需求與技術可行性之間的解決辦法，當時便透過直接在白板上畫出流程與 Wireframe
-                來確認雙方的需求，以利達成共識。這樣的作法打破公司慣有的開發流程，但卻實際解決溝通問題與減少開發時間。讓我認知到，設計師也許只是個名稱、標籤，我們真正在做的是懂得靈活運用設計工具與方法解決問題的角色。
-              </p>
-            </li>
-            <li class="mt-3">
-              <p><strong>從原子設計建構設計系統</strong></p>
-              <p>
-                這個專案經歷了與其他 UI
-                設計師合作，以及累積一年的使用心得，經歷第二版迭代優化，讓我理解原子設計的重要，可以讓設計、程式碼易於協作與善於維護擴充。同時這個經過迭代來更靠近使用者需求與核心目標的過程，讓我覺得設計產生了實際價值與意義。
-              </p>
-            </li>
-            <li class="mt-3">
-              <p><strong>數據化思維</strong></p>
-              <p>
-                目前改版的成果只有看見使用者數的提升，但我同時也想了解，報名的時間是否縮短了、後台管理者在審核的時間是否減少了等數據資料來判斷系統改版的成果。
-              </p>
-            </li>
-          </ol>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- 感謝收看 -->
-  <!-- <section class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <img src="image/vex/thank.svg" class="w-100" alt="thanks">
-            </div>
-        </div>
-    </section> -->
 
   <!-- 下一則 -->
-  <section class="container mt-5 mb-5">
-    <div class="row">
-      <div class="col-12 text-center ">
-        <p class="h3 text-vex text-center">✤ 謝謝你的觀看 ✤</p>
-      </div>
-    </div>
-    <div class="row justify-content-end">
-
-      <div class="col-md-4 col-6">
-        <a href="tong.html" class="border-0 shadow-sm rounded card link-opacity-100-hover text-decoration-none"
-          title="下一個作品">
-          <div class="card-body text-end">
-            <small>
-              下一個作品
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-arrow-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-              </svg>
-            </small>
-            <p><strong>保存珍貴的心臟臨床案例 : 醫學檢索庫</strong></p>
-          </div>
-        </a>
+  <section id="" class="pt-5 pb-5">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-12">
+          <hr class="mb-6">
+        </div>
+        <div class="col-md-4 col-6">
+          <a href="portaly.html" class="border-0 shadow-sm rounded-3 card link-opacity-100-hover text-decoration-none"
+            title="連結到上一個作品">
+            <div class="card-body">
+              <small class="text-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-arrow-left" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                </svg>
+                上一個作品
+              </small>
+              <p><strong>為創作者打造更有效率的變現流程<br>行銷新手也能快速掌握變現步驟</strong></p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-6">
+          <a href="tong.html" class="border-0 shadow-sm rounded-3 card link-opacity-100-hover text-decoration-none"
+            title="下一個作品">
+            <div class="card-body text-end">
+              <small>
+                下一個作品
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                </svg>
+              </small>
+              <p><strong>保存心臟臨床案例<br>提供完整且易於搜尋的病例檢索平台</strong></p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- footer -->
-  <footer id="footer" class="footer container-fluid py-8 bg-light">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center mt-4">
-        <p class="display-4 text-uppercase text-secondary">let's work together !</p>
-        <p class="fs-4 mb-3">
-          歡迎隨時與我聯絡交流
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-emoji-sunglasses-fill" viewBox="0 0 16 16">
-            <path
-              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M2.31 5.243A1 1 0 0 1 3.28 4H6a1 1 0 0 1 1 1v.116A4.2 4.2 0 0 1 8 5c.35 0 .69.04 1 .116V5a1 1 0 0 1 1-1h2.72a1 1 0 0 1 .97 1.243l-.311 1.242A2 2 0 0 1 11.439 8H11a2 2 0 0 1-1.994-1.839A3 3 0 0 0 8 6c-.393 0-.74.064-1.006.161A2 2 0 0 1 5 8h-.438a2 2 0 0 1-1.94-1.515zM4.969 9.75A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .866-.5z" />
-          </svg>
-        </p>
+  <section id="" class="bg-white">
+    <!-- footer -->
+    <footer id="footer" class="footer container py-7">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <p class="display-6 text-uppercase text-body-secondary playfair-display fw-light">Contact me</p>
+          <p class="fs-5 mb-3 text-secondary fw-medium">
+            歡迎隨時與我聊聊！
+          </p>
+        </div>
+        <div class="col-6">
+          <div class=" text-body-secondary rounded-pill bg-white p-2 border border-1">
+            <img src="image/portaly/gmail-svgrepo-com.svg" alt="ICON" style="max-width: 40px;" class="">
+            <span>
+              yijunglin13079@gmail.com
+            </span>
+          </div>
 
-        <a href="mailto:yijunglin13079@gmail.com" class="btn btn-dark rounded-1 shadow-sm ga_mailBtn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope"
-            viewBox="0 0 16 16">
-            <path
-              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-          </svg>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/%E4%BE%9D%E8%93%89-%E6%9E%97-6b2b97215/"
-          class="btn btn-dark rounded-1 ms-2 shadow-sm ga_linkedinBtn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin"
-            viewBox="0 0 16 16">
-            <path
-              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-          </svg>
-        </a>
-        <!-- <input id="myInput" type="text" class="email_input" value="yijunglin13079@gmail.com" disabled>
+          <a href="https://www.linkedin.com/in/%E4%BE%9D%E8%93%89-%E6%9E%97-6b2b97215/" target="_blank"
+            class="contact_item d-flex align-items-center text-body-secondary rounded-pill bg-white p-2 border border-1 mt-3 d-inline-block text-decoration-none w-100">
+            <img src="image/portaly/linkedin-svgrepo-com.svg" alt="ICON" style="max-width: 40px;" class="me-2">
+            <span>
+              Linkedin
+            </span>
+            <div class="ms-auto d-inline-block me-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+              </svg>
+            </div>
+          </a>
 
-        <div class="tooltip_cu">
-          <button type="button" class="btn btn-sm btn-outline-secondary" onclick="myFunction()" onmouseout="outFunc()"
-            onmouseout="outFunc()" onmouseenter="outFunc()">
-
-            <span class="tooltiptext_cu text-white" id="myTooltip"></span>
-            Copy
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard"
-              viewBox="0 0 16 16">
-              <path
-                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-              <path
-                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-            </svg>
-          </button>
-        </div> -->
+          <a href="https://medium.com/@yijunglin13079" target="_blank"
+            class="contact_item d-flex align-items-center text-body-secondary rounded-pill bg-white p-2 border border-1 mt-3 d-inline-block text-decoration-none w-100">
+            <img src="image/portaly/medium-svgrepo-com.svg" alt="ICON" style="max-width: 40px;" class="me-2">
+            <span>
+              Medium
+            </span>
+            <div class="ms-auto d-inline-block me-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+              </svg>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </section>
+
 
   <!-- 側邊攔 -->
   <aside class="nav_box show">
     <!-- <a class="active" href="journin.html#overview">專案背景</a> -->
-    <a class="" href="vex.html#higtlight" title="本頁錨點">成果</a>
-    <a class="" href="vex.html#background" title="本頁錨點">背景</a>
-    <a class="" href="vex.html#process" title="本頁錨點">設計流程</a>
+    
+    <a class="" href="vex.html#background" title="本頁錨點">專案背景</a>
     <a class="" href="vex.html#demand" title="本頁錨點">需求訪談</a>
+    <a class="" href="vex.html#question" title="本頁錨點">定義問題</a>
     <a class="" href="vex.html#range" title="本頁錨點">專案範圍</a>
     <a class="" href="vex.html#result" title="本頁錨點">專案成果</a>
-    <a class="" href="vex.html#DQA" title="本頁錨點">設計品管</a>
-    <a class="" href="vex.html#member" title="本頁錨點">團隊合作</a>
-    <a class="" href="vex.html#learn" title="本頁錨點">反思與學習</a>
+    <a class="" href="vex.html#member" title="本頁錨點">團隊影響力</a>
     <button type="button" onclick="nav_btn()"></button>
   </aside>
 
