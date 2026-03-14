@@ -1,0 +1,80 @@
+.bg-heptabase-light {
+    background-color: #FDEDCC;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: #f9f7ff;
+}
+
+.border-heptabase2 {
+    border-color: #1996F5;
+}
+
+.border-heptabase3 {
+    border: 2px solid #F4A400;
+}
+
+.bdr {
+    border-radius: 0.375rem;
+    overflow: hidden;
+    // background-color: #F6F2FF;
+    border: #1996F5 solid 1px;
+}
+
+.heptabase-user-table {
+}
+
+.heptabase-user-table th {
+    background-color: #f6f2ff !important;
+    padding: 12px;
+}
+
+.heptabase-user-table td {
+    // background-color: #F6F2FF;
+    padding: 12px;
+}
+
+.heptabase-user-table tr:last-child th {
+    border-style: none;
+}
+
+.heptabase-user-table tr:last-child td {
+    border-style: none;
+}
+
+.table.heptabase-user-table > :not(caption) > * > * {
+    background-color: transparent;
+}
+
+.btn-outline-heptabase:hover {
+    background-color: #1996F5;
+    color: #fff;
+}
+
+.framer-3un58d {
+    background-color: var(--token-7656416d-aec7-4273-97a1-72aeaaf04dc9, #f8f9fa);
+    bottom: 0;
+    // box-shadow: 0 4px 16px #f7f7f7;
+    flex: none;
+    height: 41px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 40px;
+}
+
+.framer-13tfko2 {
+    background-color: var(--token-77fbd437-631b-40d5-9003-0328486ce1d7, #d5d7d9);
+    bottom: 13px;
+    flex: none;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    right: -3px;
+    width: 79px;
+    z-index: 1;
+}
+
+.heptabase ul li {
+    list-style-image: url("../../image/heptabase/dot.svg");
+}
