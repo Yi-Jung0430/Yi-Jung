@@ -2,7 +2,7 @@
     z-index: 1010;
     // min-height: 85vh;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 40px;
 }
 
 .badge {
@@ -18,4 +18,103 @@
 .contact_item:hover {
     background-color: #f8f9fa;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.portrait-wrapper {
+    width: 5rem;
+    height: 5rem;
+    padding: 4px;
+    /* 白邊 */
+    background: #fff;
+    border-radius: 500%;
+
+
+    transform: rotate(-5deg) translateY(0);
+    /* 傾斜 + 微下沉 */
+
+    box-shadow:
+        0 8px 18px rgba(0, 0, 0, 0.25),
+        0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.portrait-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.portrait-wrapper:hover {
+    transform: rotate(-3deg) translateY(2px) scale(1.05);
+    transition: 0.5s ease;
+}
+
+
+
+.glass-card {
+    position: relative;
+    overflow: hidden;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+
+    border: 1px solid rgba(255, 255, 255, 0.28);
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.glass-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(circle at 20% 10%,
+            rgba(255, 255, 255, 0.45),
+            transparent 30%),
+        radial-gradient(circle at 85% 20%,
+            rgba(255, 255, 255, 0.35),
+            transparent 35%),
+        linear-gradient(135deg,
+            rgba(255, 255, 255, 0.22),
+            rgba(255, 255, 255, 0.04));
+
+    opacity: 0.75;
+    pointer-events: none;
+}
+
+.glass-card::after {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    border-radius: inherit;
+
+    background:
+        linear-gradient(135deg,
+            rgba(255, 255, 255, 0.6),
+            transparent 30%,
+            transparent 70%,
+            rgba(255, 255, 255, 0.25));
+
+    padding: 1px;
+
+    -webkit-mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+
+    pointer-events: none;
+}
+
+.glass-card-img {
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
 }
