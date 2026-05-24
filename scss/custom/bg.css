@@ -1,4 +1,5 @@
-#gradient-bg {
+#gradient-bg,
+#gradient-bg2 {
     margin: 0;
     background: linear-gradient(#ffffff, #f5f6f8);
     overflow: hidden;
@@ -130,21 +131,24 @@
   
 
   
-  #blurwrapper {
+  #blurwrapper,
+  #blurwrapper2{
     position:absolute;
     top: 15%;
     filter: blur(120px);
     opacity:1;
   }
   
-  #positionwrapper {
+  #positionwrapper,
+  #positionwrapper2 {
     width: 100vw;
     /* height: 100vh; */
     overflow: hidden;
    
   }
   
-  #noise {
+  #noise,
+  #noise2 {
     position: absolute;
     top: 0;
     left: 0;
