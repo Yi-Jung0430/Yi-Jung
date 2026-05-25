@@ -25020,6 +25020,302 @@ a.shadow-sm:hover,
           filter: blur(12px);
 }
 
+.strategy-card {
+  position: relative;
+  padding: 28px;
+  border-radius: 24px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+  -webkit-transition: -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
+  transition: -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
+  overflow: hidden;
+}
+
+.strategy-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 28px;
+  width: 48px;
+  height: 5px;
+  border-radius: 999px;
+  background: #ff6b35;
+}
+
+.strategy-card:hover {
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+  -webkit-box-shadow: 0 18px 44px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 18px 44px rgba(0, 0, 0, 0.1);
+}
+
+.strategy-number {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  background: #fff1eb;
+  color: #ff6b35;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.strategy-title {
+  margin-bottom: 14px;
+  color: #1f2933;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.strategy-text {
+  margin-bottom: 0;
+  color: #5f6b7a;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* RWD */
+@media (max-width: 767.98px) {
+  .strategy-card {
+    padding: 24px;
+    border-radius: 20px;
+  }
+  .strategy-title {
+    font-size: 18px;
+  }
+  .strategy-text {
+    font-size: 14px;
+  }
+}
+
+.audience-card {
+  position: relative;
+  padding: 56px 36px 40px;
+  background: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
+  transition: -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
+}
+
+.audience-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 22px;
+  margin-bottom: 34px;
+}
+
+.audience-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.audience-icon i {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.audience-header h5, .audience-header .h5 {
+  margin: 0;
+  color: #202832;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.25;
+}
+
+.audience-line {
+  width: 60px;
+  height: 4px;
+  margin: 0 auto 32px;
+  border-radius: 999px;
+}
+
+.audience-question {
+  margin: 0 0 40px;
+  color: #202832;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+}
+
+.audience-tag {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 360px;
+  padding: 18px 24px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+}
+
+.audience-tag i {
+  font-size: 16px;
+  line-height: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+/* Green card */
+.audience-card-green .audience-icon {
+  background: #e7f4ec;
+}
+
+.audience-card-green .audience-icon i,
+.audience-card-green .audience-tag i {
+  color: #2f7d5d;
+}
+
+.audience-card-green .audience-line {
+  background: #74c997;
+}
+
+.audience-card-green .audience-tag {
+  background: #edf8f2;
+  color: #202832;
+}
+
+/* Orange card */
+.audience-card-orange .audience-icon {
+  background: #fff0e0;
+}
+
+.audience-card-orange .audience-icon i,
+.audience-card-orange .audience-tag i {
+  color: #b86112;
+}
+
+.audience-card-orange .audience-line {
+  background: #ff944d;
+}
+
+.audience-card-orange .audience-tag {
+  background: #fff4e9;
+  color: #202832;
+}
+
+/* Purple card */
+.audience-card-purple .audience-icon {
+  background: #eee9fb;
+}
+
+.audience-card-purple .audience-icon i,
+.audience-card-purple .audience-tag i {
+  color: #6d5aa8;
+}
+
+.audience-card-purple .audience-line {
+  background: #a78be8;
+}
+
+.audience-card-purple .audience-tag {
+  background: #f4f1fb;
+  color: #202832;
+}
+
+/* Tablet */
+@media (max-width: 991.98px) {
+  .audience-card {
+    min-height: 420px;
+    padding: 48px 30px 36px;
+  }
+  .audience-header {
+    gap: 18px;
+  }
+  .audience-icon {
+    width: 78px;
+    height: 78px;
+  }
+  .audience-icon i {
+    font-size: 36px;
+  }
+  .audience-header h5, .audience-header .h5 {
+    font-size: 28px;
+  }
+  .audience-question {
+    font-size: 21px;
+  }
+  .audience-tag {
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  .audience-card {
+    min-height: auto;
+    padding: 42px 26px 34px;
+    border-radius: 32px;
+  }
+  .audience-header {
+    margin-bottom: 28px;
+  }
+  .audience-line {
+    margin-bottom: 40px;
+  }
+  .audience-question {
+    margin-bottom: 44px;
+    font-size: 14px;
+  }
+  .audience-tag {
+    max-width: 100%;
+    padding: 16px 20px;
+    font-size: 14px;
+    gap: 14px;
+  }
+  .audience-tag i {
+    font-size: 28px;
+  }
+}
+
 .nav_box.show {
   display: block;
 }
