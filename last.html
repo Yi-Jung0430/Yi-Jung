@@ -145,21 +145,51 @@
         <div class="row pt-7 justify-content-between">
             <div class="col-12 box">
                 <h5 class="opacity-0" style="height: 0;">Impact</h5>
-                <p class="font-weight-bold mb-0 text-portaly">Impact</p>
+                <p class="font-weight-bold mb-0 text-vex">Impact</p>
                 <h3 class="font-weight-bold">新功能上線後，根據客服部門回饋，處理此類回報誤解問題的時間減少約 75%。
                 </h3>
                 <p class="mt-3">
-                    本次設計將原本依賴照片判斷的回報方式，轉為結構化、情境化的回報流程，讓會員、收取夥伴與平台營運能以一致方式理解任務狀態。
+                    重新設計收取人員 app 的回報流程，取得完善的資訊，再重新設計會員 app 的資訊架構，讓會員看到的資訊更為清晰且正確。
                 </p>
+            </div>
+            <div class="col-12 rounded-4">
+                <p class="fw-bold text-portaly">收取人員 App</p>
+                <img src="image/last/impact02.png" class="w-100" alt="target">
+            </div>
+            <div class="col-12 rounded-4 mt-5">
+                <p class="fw-bold  text-portaly">會員 App</p>
+                <img src="image/last/impact01.png" class="w-100" alt="target">
             </div>
         </div>
     </section>
 
     <section class="container portaly">
-        <div class="row mt-7">
+        <div class="row my-7  align-items-center">
             <div class="col-12">
-                <p class="font-weight-bold mb-0 text-portaly">Problem</p>
-                <h3 class="font-weight-bold">原本的回報流程高度依賴照片，但照片本身無法完整說明現場情境，引發強烈不滿客訴。</h3>
+                <p class="font-weight-bold mb-0 text-vex">Problem</p>
+                <h3 class="font-weight-bold">原本的回報流程高度依賴照片，但照片本身無法完整說明現場情境，易讓會員誤解，引發強烈不滿客訴。</h3>
+            </div>
+            <div class="col-6 rounded-4">
+                <p class="fw-bold text-portaly">有正確收取但被誤解為收取任務未完成的客訴案例</p>
+                <img src="image/last/problem1.png" class="w-100 rounded-4" alt="target">
+            </div>
+            <div class="col-6">
+                <div class="iteration-list">
+                    <div class="iteration-item">
+                        <span class="iteration-icon">×</span>
+                        <span>回報內容以照片為主，缺乏明確語意</span>
+                    </div>
+
+                    <div class="iteration-item mt-3">
+                        <span class="iteration-icon">×</span>
+                        <span>會員與營運需自行解讀，理解成本高</span>
+                    </div>
+
+                    <div class="iteration-item mt-3">
+                        <span class="iteration-icon">×</span>
+                        <span>誤解情境導致客訴與信任下降</span>
+                    </div>
+                </div>
             </div>
 
 
@@ -168,8 +198,10 @@
                     <p class="text-portaly badge bg-portaly-light text-portaly rounded-pill pt-2">
                         定義關鍵問題</b>
                     </p>
-                    <p>不是「沒有回報」，而是「回報沒有被正確理解」。
-                        尤其在垃圾未完全清空、現場有額外物品、或突發狀況時，照片很難傳達完整脈絡。若會員只看到未清空的照片，容易誤以為服務失敗，進而產生客訴與信任下降。</p>
+                    <p><b>系統提供了資料，但沒有提供可理解的資訊。</b><br>
+                        回報資訊容易誤判、或是需要花很多時間解讀。
+                        問題源頭在於收取人員 app 的回報流程與功能無法滿足實際需求。
+                    </p>
                 </div>
             </div>
         </div>
@@ -180,8 +212,18 @@
             <div class="row py-lg-8 py-6 justify-content-between">
                 <div class="col-12 box mb-4">
                     <h5 class="opacity-0" style="height: 0;">Research</h5>
-                    <p class="font-weight-bold mb-0 text-portaly">Research</p>
+                    <p class="font-weight-bold mb-0 text-vex">Research</p>
                     <h6 class="h3 font-weight-bold">在設計前，我先進行訪談與情境盤點，釐清不同角色在回報流程中的需求與痛點。</h6>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <div class="border rounded-4 p-4 bg-white">
+                        <p class="text-vex badge bg-vex-light rounded-pill pt-2">
+                            <b>AI 在此階段的應用</b>
+                        </p>
+                        <p>主要用於協助<b>整理訪談紀錄、歸納高頻情境、萃取重複痛點</b>，並作為初步分類架構的參考。<br>最終分類與流程決策仍由我依實際服務情境判斷與調整。</p>
+                        <p><b>使用工具：Google NotebookLM、ChatGPT Plus</b></p>
+                    </div>
                 </div>
                 <!-- Card 1 -->
                 <div class="col-12 col-md-4">
@@ -244,8 +286,8 @@
                         <div class="audience-line"></div>
 
                         <p class="audience-question">
-                            如何快速判斷現場狀態<br>
-                            並處理客訴
+                            如何符合公司政策，<br>
+                            並且在客訴當下快速判斷原因
                         </p>
 
                         <div class="audience-tag">
@@ -255,11 +297,14 @@
                     </div>
                 </div>
                 <div class="col-12 mt-4">
-                    <div class="border rounded-4 p-4 bg-white">
-                        <p class="text-vex badge bg-vex-light rounded-pill pt-2">
-                            <b>AI 在此階段的應用</b>
+                    <div class="border border-danger rounded-4 p-4 bg-white text-center">
+                        <p class="text-danger badge bg-light rounded-pill pt-2 fw-bold">
+                            設計挑戰
                         </p>
-                        <p>主要用於協助<b>整理訪談紀錄、歸納高頻情境、萃取重複痛點</b>，並作為初步分類架構的參考。<br>最終分類與流程決策仍由我依實際服務情境判斷與調整。</p>
+                        <h6 class="h3 font-weight-bold">
+                            系統需同時兼顧「低操作成本」與「高資訊清晰度」<br>形成 UX 設計上的平衡挑戰。
+                        </h6>
+                        <p>收取人員追求「快速完成任務」，會員則期待「充分理解收取狀況」，兩者在資訊密度上的需求存在落差</p>
                     </div>
                 </div>
             </div>
@@ -267,31 +312,14 @@
     </section>
 
     <!-- 研究目標 -->
-    <section id="" class="bg-white">
-        <div class="container">
-            <div class="row pb-lg-8 pb-6">
-                <div class="col-12">
-                    <hr class="pt-lg-3 pt-2">
-                </div>
-                <div class="col-12 box">
-                    <p class="font-weight-bold mb-0 text-portaly">Key Findings</p>
-                    <h6 class="h3 font-weight-bold">訪談與情境盤點後，我發現問題不在於夥伴沒有回報，而是回報流程缺乏結構，導致不同角色對同一張照片產生不同解讀。</h6>
-
-                </div>
-                <div class="col-12 text-center rounded-4 border-portaly3 bg-portaly-light">
-                    <img src="" class="w-75" alt="target">
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="research" class="">
         <div class="container">
             <div class="row py-lg-8 py-6 gx-3">
                 <div class="col-12 box">
                     <h5 class="opacity-0" style="height: 0;">Design Strategy</h5>
-                    <p class="font-weight-bold mb-0 text-portaly">Design Strategy</p>
-                    <h6 class="h3 font-weight-bold">我重新設計的不是單一介面，而是整個回報資訊流。</h6>
+                    <p class="font-weight-bold mb-0 text-vex">Design Strategy</p>
+                    <h6 class="h3 font-weight-bold">不是重新設計新的介面，而是重構整個回報資訊流。
+                    </h6>
                     <p class="mt-3">
                         核心策略是將原本「自由回報」轉為「結構化＋情境化回報」，讓每一次回報都具備明確語意，而不是只依賴照片。
                     </p>
@@ -309,7 +337,6 @@
                                 </p>
                             </div>
                         </div>
-
                         <div class="col-12 col-md-4">
                             <div class="strategy-card h-100">
                                 <div class="strategy-number">02</div>
@@ -329,10 +356,12 @@
                                 </p>
                             </div>
                         </div>
-
+                        <div class="col-10 rounded-4 mt-5">
+                            <p class="fw-bold  text-portaly">設計了三個版本 User Flow 最終與利害關係人討論定案以下版本</p>
+                            <img src="image/last/userflow.png" class="w-100" alt="target">
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -344,8 +373,8 @@
                     <hr class="pt-lg-3 pt-2">
                 </div>
                 <div class="col-12">
-                    <p class="font-weight-bold mb-0 text-portaly">Design Solution</p>
-                    <h6 class="h3 font-weight-bold">最終我設計出雙軌回報機制：快速回報與詳細回報。</h6>
+                    <p class="font-weight-bold mb-0 text-vex">Design Solution</p>
+                    <h6 class="h3 font-weight-bold">最終我設計出「快速回報」與「詳細回報」雙軌並行的回報機制。</h6>
 
                 </div>
                 <div class="col-12 mt-4">
